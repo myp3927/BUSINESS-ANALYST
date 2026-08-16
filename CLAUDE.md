@@ -33,6 +33,54 @@ Hai tài liệu phụ trợ cho phần trình bày (site trong [site/](site/)):
 - Kết quả đánh giá chuẩn hóa theo **6 nhóm cố định** (kỹ năng cốt lõi, công cụ, phương pháp, domain, kỹ năng mềm, kinh nghiệm) + % tổng, để so sánh được giữa các lượt.
 - Nội dung phải hướng đúng người đọc: cùng dữ liệu nhưng khu Ứng viên và khu HR trình bày khác nhau.
 
+## ⛔ Quy tắc BẤT DI BẤT DỊCH khi làm site portfolio ([site/](site/))
+
+**Đây là luật cứng. Không bao giờ được làm sai, không bao giờ được vi phạm — kể cả khi nội dung gốc dài.**
+Chữ dài thì **cắt hoặc đổi sang dạng trực quan**, tuyệt đối không bê nguyên khối chữ lên site.
+
+### 1. Mật độ chữ (Text Density)
+
+- **Tỷ lệ hình/chữ:** 70% trực quan – 30% chữ với section trưng bày; **60% – 40%** với section cần giải thích nhiều.
+  ("Trực quan" ở repo này = sơ đồ, bảng, thẻ số liệu, biểu đồ, mockup — **không dùng ảnh stock**.)
+- **Độ dài đoạn văn:** mỗi đoạn mô tả **tối đa 3–4 dòng (~40–60 từ)**. Không có block text dày đặc.
+- **Nguyên tắc 3 giây:** lướt qua 3 giây phải hiểu ngay *dự án làm về cái gì* và *vai trò của mình là gì*.
+
+### 2. Cấu trúc chữ bắt buộc của một case study
+
+| Thành phần | Quy cách |
+|---|---|
+| **Tiêu đề dự án** | To, rõ ràng, đứng một mình |
+| **Thông tin cốt lõi (Metadata)** | **Bullet points**: Thời gian · Vai trò · Công cụ sử dụng · Khách hàng/Đồ án |
+| **Mô tả ngắn (Overview)** | **2–3 câu** tóm tắt bài toán và giải pháp — không hơn |
+
+### 3. Chiều cao mỗi section: tối đa 1–2 màn hình
+
+**Một section chỉ được cao tối đa 1–2 màn hình (≈ 900–1800px ở desktop 1440×900). CẤM vượt.**
+Không có ngoại lệ vì "nội dung nhiều" — nội dung nhiều là lý do phải **thiết kế lại**, không phải lý do để kéo dài.
+
+Cách xử lý khi một section bị dài (chọn cái hợp nhất, được phép ghép nhiều cách):
+
+| Cách | Dùng khi |
+|---|---|
+| **Tabs / chuyển mục** | Nhiều nhóm nội dung song song (ví dụ 4 giai đoạn → 4 tab, mỗi lần xem 1) |
+| **Accordion** | Danh sách dài mà người đọc chỉ cần mở cái họ quan tâm |
+| **Carousel / trượt ngang** | Các thẻ cùng dạng, số lượng nhiều |
+| **Sticky + cột cuộn** | Tiêu đề đứng yên bên trái, nội dung chạy bên phải |
+| **Bảng thay vì nhiều thẻ** | Dữ liệu có cùng cấu trúc — bảng gọn hơn thẻ rất nhiều |
+| **Cắt đôi thành 2 section** | Khi thật sự là hai ý khác nhau bị gộp làm một |
+| **Đẩy về tài liệu gốc** | Chi tiết sâu — trên site chỉ để phần chốt + một dòng dẫn link |
+
+**Kiểm tra trước khi commit:** đo chiều cao thật của từng section (`getBoundingClientRect().height`),
+section nào > 1800px ở 1440×900 thì phải thiết kế lại theo bảng trên.
+
+### 4. Cách xử lý khi nội dung vượt hạn mức
+
+Theo thứ tự ưu tiên: **(1)** chuyển thành bảng / sơ đồ / thẻ số liệu → **(2)** cắt còn ý cốt lõi →
+**(3)** gập vào accordion → **(4)** đẩy về file tài liệu gốc trong repo và chỉ để một dòng dẫn link.
+
+**Trước khi commit bất kỳ thay đổi nào lên site:** rà lại từng section — đoạn nào quá 4 dòng xử lý theo mục 4,
+section nào cao quá 2 màn hình xử lý theo mục 3.
+
 ## Quy ước khi chỉnh sửa tài liệu
 
 - **Ký hiệu trạng thái (BACKLOG):** `✅` đã có & đang chạy · `⬜` chưa làm · `🔧` muốn nâng cấp (đã pick) · `🧪` đang làm/đang test.
