@@ -4,11 +4,14 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Container, RevealGroup, Section, SectionHeader } from "./Section";
 import { EASE, fadeUp } from "./motion";
+import { DocModal, type DocModalTarget } from "./DocModal";
+
+type Output = { label: string; href?: string; doc?: DocModalTarget };
 
 type Action = {
   technique: string;
   how: string;
-  outputs: { label: string; href?: string }[];
+  outputs: Output[];
 };
 
 const PHASES: { n: string; name: string; actions: Action[] }[] = [
@@ -65,7 +68,12 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
           { label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" },
           {
             label: "US đầy đủ — Tiến trình đánh giá độ phù hợp (AICV-17)",
-            href: "https://github.com/myp3927/BUSINESS-ANALYST/blob/main/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+            doc: {
+              title: "US — Tiến trình Đánh giá độ phù hợp bằng AI",
+              src: "/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+              githubHref:
+                "https://github.com/myp3927/BUSINESS-ANALYST/blob/main/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+            },
           },
         ],
       },
@@ -107,7 +115,7 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
   },
 ];
 
-function OutputChip({ label, href }: { label: string; href?: string }) {
+function OutputChip({ label, href, onClick }: { label: string; href?: string; onClick?: () => void }) {
   const inner = (
     <>
       <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 flex-none" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -119,6 +127,13 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
   );
   const base =
     "inline-flex items-center gap-2 rounded-frame border border-accent/25 bg-accent-tint px-3 py-2 text-[0.8rem] text-ink no-underline";
+  if (onClick) {
+    return (
+      <button type="button" onClick={onClick} className={`${base} transition-colors hover:border-accent/50`}>
+        {inner}
+      </button>
+    );
+  }
   const external = href?.startsWith("http");
   return href ? (
     <a
@@ -135,6 +150,7 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
 
 export function ProcessActions() {
   const [active, setActive] = useState(0);
+  const [docTarget, setDocTarget] = useState<DocModalTarget | null>(null);
   const p = PHASES[active];
 
   return (
@@ -187,7 +203,12 @@ export function ProcessActions() {
                       Output
                     </span>
                     {a.outputs.map((o) => (
-                      <OutputChip key={o.label} {...o} />
+                      <OutputChip
+                        key={o.label}
+                        label={o.label}
+                        href={o.href}
+                        onClick={o.doc ? () => setDocTarget(o.doc!) : undefined}
+                      />
                     ))}
                   </div>
                 </motion.div>
@@ -196,6 +217,8 @@ export function ProcessActions() {
           </motion.div>
         </AnimatePresence>
       </Container>
+
+      <DocModal target={docTarget} onClose={() => setDocTarget(null)} />
     </Section>
   );
 }
