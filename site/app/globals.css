@@ -158,6 +158,40 @@ html.lenis {
   animation-play-state: paused;
 }
 
+/* ── Nội dung markdown trong DocModal ───────────────────── */
+.doc-prose p {
+  margin: 0 0 0.9em;
+}
+.doc-prose ul,
+.doc-prose ol {
+  margin: 0 0 0.9em;
+  padding-left: 1.3em;
+}
+.doc-prose ul {
+  list-style: disc;
+}
+.doc-prose ol {
+  list-style: decimal;
+}
+.doc-prose li {
+  margin: 0.25em 0;
+}
+.doc-prose li > p {
+  margin: 0;
+}
+.doc-prose strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+.doc-prose hr {
+  margin: 1.5em 0;
+  border: none;
+  border-top: 1px solid var(--line);
+}
+.doc-prose > *:first-child {
+  margin-top: 0;
+}
+
 /* ── Giảm chuyển động ───────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   html {

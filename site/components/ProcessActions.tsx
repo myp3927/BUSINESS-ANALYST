@@ -1,13 +1,17 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Container, RevealGroup, Section, SectionHeader } from "./Section";
-import { fadeUp } from "./motion";
+import { EASE, fadeUp } from "./motion";
+import { DocModal, type DocModalTarget } from "./DocModal";
+
+type Output = { label: string; href?: string; doc?: DocModalTarget };
 
 type Action = {
   technique: string;
   how: string;
-  outputs: { label: string; href?: string }[];
+  outputs: Output[];
 };
 
 const PHASES: { n: string; name: string; actions: Action[] }[] = [
@@ -60,7 +64,18 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
       {
         technique: "User Story + Acceptance Criteria",
         how: "Mô tả đúng việc AI nên làm và giới hạn rõ việc AI không được làm, trước khi bắt đầu build.",
-        outputs: [{ label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" }],
+        outputs: [
+          { label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" },
+          {
+            label: "US đầy đủ — Tiến trình đánh giá độ phù hợp (AICV-17)",
+            doc: {
+              title: "US — Tiến trình Đánh giá độ phù hợp bằng AI",
+              src: "/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+              githubHref:
+                "https://github.com/myp3927/BUSINESS-ANALYST/blob/main/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+            },
+          },
+        ],
       },
       {
         technique: "Đặc tả luồng trạng thái cho hệ thống",
@@ -100,7 +115,7 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
   },
 ];
 
-function OutputChip({ label, href }: { label: string; href?: string }) {
+function OutputChip({ label, href, onClick }: { label: string; href?: string; onClick?: () => void }) {
   const inner = (
     <>
       <svg viewBox="0 0 16 16" className="h-3.5 w-3.5 flex-none" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -112,8 +127,20 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
   );
   const base =
     "inline-flex items-center gap-2 rounded-frame border border-accent/25 bg-accent-tint px-3 py-2 text-[0.8rem] text-ink no-underline";
+  if (onClick) {
+    return (
+      <button type="button" onClick={onClick} className={`${base} transition-colors hover:border-accent/50`}>
+        {inner}
+      </button>
+    );
+  }
+  const external = href?.startsWith("http");
   return href ? (
-    <a href={href} className={`${base} transition-colors hover:border-accent/50`}>
+    <a
+      href={href}
+      className={`${base} transition-colors hover:border-accent/50`}
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+    >
       {inner}
     </a>
   ) : (
@@ -122,46 +149,76 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
 }
 
 export function ProcessActions() {
+  const [active, setActive] = useState(0);
+  const [docTarget, setDocTarget] = useState<DocModalTarget | null>(null);
+  const p = PHASES[active];
+
   return (
     <Section id="quy-trinh-ba">
       <Container>
         <SectionHeader
           eyebrow="Quy trình & Hành động"
           title="Kỹ thuật đã áp dụng — và output tạo ra"
-          lede="Bốn giai đoạn, mười hai hành động. Mỗi hành động đều kết thúc bằng một output cụ thể có thể mở ra xem, không dừng ở mô tả suông."
+          lede="Bốn giai đoạn, mười hai hành động. Mỗi hành động kết thúc bằng một output có thể mở ra xem."
         />
 
-        <div className="mt-12 flex flex-col gap-4">
-          {PHASES.map((p) => (
-            <div
-              key={p.n}
-              className="card-shadow grid grid-cols-1 gap-6 rounded-panel border border-line bg-card p-6 sm:p-8 lg:grid-cols-[220px_1fr] lg:gap-10"
+        <div className="mt-10 flex flex-wrap gap-2" role="tablist" aria-label="Giai đoạn quy trình BA">
+          {PHASES.map((ph, i) => (
+            <button
+              key={ph.n}
+              type="button"
+              role="tab"
+              aria-selected={active === i}
+              onClick={() => setActive(i)}
+              className={`flex items-center gap-2 rounded-full border px-4 py-2 text-left text-[0.82rem] transition-colors ${
+                active === i
+                  ? "border-accent/40 bg-accent text-white"
+                  : "border-line bg-card text-ink-soft hover:border-line-strong"
+              }`}
             >
-              <div className="lg:sticky lg:top-28 lg:self-start">
-                <span className="font-mono text-[0.72rem] text-accent">Giai đoạn {p.n}</span>
-                <h3 className="mt-2 font-display text-[1.125rem] font-medium text-ink">{p.name}</h3>
-              </div>
-
-              <RevealGroup className="divide-y divide-line border-t border-line lg:border-t-0" stagger={0.07}>
-                {p.actions.map((a) => (
-                  <motion.div key={a.technique} variants={fadeUp} className="py-5 first:pt-0 lg:first:pt-0">
-                    <h4 className="font-display text-[1rem] font-medium text-ink">{a.technique}</h4>
-                    <p className="mt-1.5 max-w-[62ch] text-[0.9rem] text-ink-soft">{a.how}</p>
-                    <div className="mt-3.5 flex flex-wrap items-center gap-2">
-                      <span className="font-mono text-[0.66rem] uppercase tracking-[0.08em] text-ink-faint">
-                        Output
-                      </span>
-                      {a.outputs.map((o) => (
-                        <OutputChip key={o.label} {...o} />
-                      ))}
-                    </div>
-                  </motion.div>
-                ))}
-              </RevealGroup>
-            </div>
+              <span className={`font-mono text-[0.68rem] ${active === i ? "text-white/80" : "text-accent"}`}>
+                {ph.n}
+              </span>
+              {ph.name}
+            </button>
           ))}
         </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={p.n}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.3, ease: EASE }}
+            className="card-shadow mt-4 rounded-panel border border-line bg-card p-6 sm:p-8"
+          >
+            <RevealGroup className="divide-y divide-line" stagger={0.06}>
+              {p.actions.map((a) => (
+                <motion.div key={a.technique} variants={fadeUp} className="py-5 first:pt-0">
+                  <h4 className="font-display text-[1rem] font-medium text-ink">{a.technique}</h4>
+                  <p className="mt-1.5 max-w-[62ch] text-[0.9rem] text-ink-soft">{a.how}</p>
+                  <div className="mt-3.5 flex flex-wrap items-center gap-2">
+                    <span className="font-mono text-[0.66rem] uppercase tracking-[0.08em] text-ink-faint">
+                      Output
+                    </span>
+                    {a.outputs.map((o) => (
+                      <OutputChip
+                        key={o.label}
+                        label={o.label}
+                        href={o.href}
+                        onClick={o.doc ? () => setDocTarget(o.doc!) : undefined}
+                      />
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
+            </RevealGroup>
+          </motion.div>
+        </AnimatePresence>
       </Container>
+
+      <DocModal target={docTarget} onClose={() => setDocTarget(null)} />
     </Section>
   );
 }

@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { EASE, viewportOnce } from "./motion";
 
 const ACS = [
-  "Ô nhập link + nút “Lấy nội dung” hiển thị ngay trên ô JD.",
-  "Hệ thống tải trang và đổ text vào đúng ô JD để xem/sửa — không tự động chấm điểm.",
-  "Hiện dòng nhắc “nội dung do hệ thống tự đọc từ [trang]” + cảnh báo khi text ngắn bất thường.",
-  "Từ chối tải với LinkedIn/Indeed/Facebook, báo lỗi rõ ràng thay vì treo.",
+  "Ô nhập link + nút “Lấy nội dung” trên ô JD",
+  "Tự đổ text vào ô JD để xem/sửa — không tự chấm điểm",
+  "Cảnh báo khi nội dung lấy về ngắn bất thường",
+  "Từ chối LinkedIn/Indeed/Facebook, báo lỗi rõ ràng",
 ];
 
 export function UserStoryCard() {
