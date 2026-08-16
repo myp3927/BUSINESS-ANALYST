@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { TrustBar } from "@/components/TrustBar";
 import { Context } from "@/components/Context";
 import { Role } from "@/components/Role";
+import { ProcessActions } from "@/components/ProcessActions";
 import { Scope } from "@/components/Scope";
 import { ScoreModel } from "@/components/ScoreModel";
 import { Decision } from "@/components/Decision";
@@ -23,6 +24,7 @@ export default function Home() {
         <TrustBar />
         <Context />
         <Role />
+        <ProcessActions />
         <Scope />
         <ScoreModel />
         <Decision />

@@ -7,6 +7,7 @@ import { EASE } from "./motion";
 const LINKS = [
   { href: "#boi-canh", label: "Bối cảnh" },
   { href: "#vai-tro", label: "Vai trò" },
+  { href: "#quy-trinh-ba", label: "Cách làm" },
   { href: "#mo-hinh", label: "Mô hình" },
   { href: "#thi-truong", label: "Thị trường" },
   { href: "#roadmap", label: "Roadmap" },
@@ -37,7 +38,7 @@ export function Nav() {
   return (
     <header className="pointer-events-none fixed inset-x-0 top-0 z-50 px-2 py-4 sm:px-6">
       <motion.nav
-        animate={{ maxWidth: scrolled ? 680 : 1240 }}
+        animate={{ maxWidth: scrolled ? 780 : 1240 }}
         transition={{ duration: 0.5, ease: EASE }}
         style={{ maxWidth: 1240, backgroundColor: scrolled ? "rgba(11,11,9,0.92)" : "rgba(11,11,9,0.32)" }}
         className="glass-edge pointer-events-auto mx-auto flex items-center gap-3 rounded-card p-2.5 backdrop-blur-md transition-shadow duration-500"

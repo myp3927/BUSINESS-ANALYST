@@ -40,7 +40,7 @@ const ITEMS = [
     title: "Đặc tả quy trình cho hệ thống",
     body: "Luồng trạng thái rõ ràng, tách vai trò từng thành phần.",
     href: "#quy-trinh",
-    label: "Quy trình",
+    label: "Luồng hệ thống",
   },
   {
     n: "06",

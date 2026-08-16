@@ -17,6 +17,13 @@ Toàn bộ tài liệu viết bằng **tiếng Việt**. Mọi nội dung mới 
 | [Product_Roadmap.md](Product_Roadmap.md) | **SẮP LÀM GÌ** | Kho ý tưởng **chưa làm**, xếp theo Cụm A–F, có cột Công sức + Độ ưu tiên. |
 | [PHAN-TICH-THI-TRUONG-CANH-TRANH.md](PHAN-TICH-THI-TRUONG-CANH-TRANH.md) | **THỊ TRƯỜNG THẾ NÀO** | Phân tích nhu cầu, 3 nhóm đối thủ (nền tảng VN, công cụ AI toàn cầu, ATS), khoảng trống cơ hội. |
 
+Hai tài liệu phụ trợ cho phần trình bày (site trong [site/](site/)):
+
+| File | Vai trò |
+|---|---|
+| [KHUNG-PORTFOLIO-BA.md](KHUNG-PORTFOLIO-BA.md) | **Khung chuẩn** một portfolio BA cần có (4 phần case study, output theo Product/Outsource, kỹ năng con người) + bảng đối chiếu xem site còn thiếu mục nào. Khi thêm/bớt section trên site, cập nhật lại bảng đối chiếu ở cuối file. |
+| [PHAN-TICH-GIAO-DIEN-FLUENCE.md](PHAN-TICH-GIAO-DIEN-FLUENCE.md) | **Hệ thống thiết kế** của site: token màu, thang chữ, thông số chuyển động, bố cục từng section — đo từ template tham chiếu. Đọc trước khi sửa giao diện. |
+
 **Quy tắc đặt nội dung:** lý do/bối cảnh → CAU-CHUYEN; mô tả tính năng đã có → BACKLOG; ý tưởng chưa làm → Roadmap. Không nhét lý do dài vào BACKLOG.
 
 ## Định hướng sản phẩm (North Star)

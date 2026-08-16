@@ -19,7 +19,7 @@ export function Pipeline() {
       <Container>
         <SectionHeader
           align="center"
-          eyebrow="Quy trình kỹ thuật"
+          eyebrow="Luồng hệ thống"
           title="Một lượt chạy thật ra diễn ra thế nào"
           lede="Sáu bước, tách rời hoàn toàn — web và AI worker không bao giờ gọi nhau trực tiếp; chúng chuyền việc qua một hàng đợi, nên trang vẫn mượt trong lúc AI đang xử lý."
         />

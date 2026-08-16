@@ -11,6 +11,7 @@ const LINK_COLUMNS = [
     links: [
       { label: "Bối cảnh", href: "#boi-canh" },
       { label: "Vai trò", href: "#vai-tro" },
+      { label: "Quy trình & Hành động", href: "#quy-trinh-ba" },
       { label: "Phạm vi", href: "#pham-vi" },
       { label: "Mô hình chấm điểm", href: "#mo-hinh" },
     ],
@@ -19,7 +20,7 @@ const LINK_COLUMNS = [
     title: "Phân tích",
     links: [
       { label: "Nguyên tắc", href: "#quyet-dinh" },
-      { label: "Quy trình", href: "#quy-trinh" },
+      { label: "Luồng hệ thống", href: "#quy-trinh" },
       { label: "Thị trường", href: "#thi-truong" },
       { label: "Roadmap", href: "#roadmap" },
     ],
