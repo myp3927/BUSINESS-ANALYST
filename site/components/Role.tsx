@@ -1,5 +1,6 @@
 import { Section } from "./Section";
 import { Statement } from "./Insight";
+import { UserStoryCard } from "./UserStoryCard";
 
 export function Role() {
   return (
@@ -17,6 +18,7 @@ export function Role() {
         cùng AI: mô tả yêu cầu chính xác, đặt giới hạn, và kiểm định chất
         lượng đầu ra.
       </p>
+      <UserStoryCard />
     </Section>
   );
 }
