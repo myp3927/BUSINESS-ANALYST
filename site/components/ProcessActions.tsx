@@ -1,8 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { Container, RevealGroup, Section, SectionHeader } from "./Section";
-import { fadeUp } from "./motion";
+import { EASE, fadeUp } from "./motion";
 
 type Action = {
   technique: string;
@@ -122,45 +123,67 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
 }
 
 export function ProcessActions() {
+  const [active, setActive] = useState(0);
+  const p = PHASES[active];
+
   return (
     <Section id="quy-trinh-ba">
       <Container>
         <SectionHeader
           eyebrow="Quy trình & Hành động"
           title="Kỹ thuật đã áp dụng — và output tạo ra"
-          lede="Bốn giai đoạn, mười hai hành động. Mỗi hành động đều kết thúc bằng một output cụ thể có thể mở ra xem, không dừng ở mô tả suông."
+          lede="Bốn giai đoạn, mười hai hành động. Mỗi hành động kết thúc bằng một output có thể mở ra xem."
         />
 
-        <div className="mt-12 flex flex-col gap-4">
-          {PHASES.map((p) => (
-            <div
-              key={p.n}
-              className="card-shadow grid grid-cols-1 gap-6 rounded-panel border border-line bg-card p-6 sm:p-8 lg:grid-cols-[220px_1fr] lg:gap-10"
+        <div className="mt-10 flex flex-wrap gap-2" role="tablist" aria-label="Giai đoạn quy trình BA">
+          {PHASES.map((ph, i) => (
+            <button
+              key={ph.n}
+              type="button"
+              role="tab"
+              aria-selected={active === i}
+              onClick={() => setActive(i)}
+              className={`flex items-center gap-2 rounded-full border px-4 py-2 text-left text-[0.82rem] transition-colors ${
+                active === i
+                  ? "border-accent/40 bg-accent text-white"
+                  : "border-line bg-card text-ink-soft hover:border-line-strong"
+              }`}
             >
-              <div className="lg:sticky lg:top-28 lg:self-start">
-                <span className="font-mono text-[0.72rem] text-accent">Giai đoạn {p.n}</span>
-                <h3 className="mt-2 font-display text-[1.125rem] font-medium text-ink">{p.name}</h3>
-              </div>
-
-              <RevealGroup className="divide-y divide-line border-t border-line lg:border-t-0" stagger={0.07}>
-                {p.actions.map((a) => (
-                  <motion.div key={a.technique} variants={fadeUp} className="py-5 first:pt-0 lg:first:pt-0">
-                    <h4 className="font-display text-[1rem] font-medium text-ink">{a.technique}</h4>
-                    <p className="mt-1.5 max-w-[62ch] text-[0.9rem] text-ink-soft">{a.how}</p>
-                    <div className="mt-3.5 flex flex-wrap items-center gap-2">
-                      <span className="font-mono text-[0.66rem] uppercase tracking-[0.08em] text-ink-faint">
-                        Output
-                      </span>
-                      {a.outputs.map((o) => (
-                        <OutputChip key={o.label} {...o} />
-                      ))}
-                    </div>
-                  </motion.div>
-                ))}
-              </RevealGroup>
-            </div>
+              <span className={`font-mono text-[0.68rem] ${active === i ? "text-white/80" : "text-accent"}`}>
+                {ph.n}
+              </span>
+              {ph.name}
+            </button>
           ))}
         </div>
+
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={p.n}
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ duration: 0.3, ease: EASE }}
+            className="card-shadow mt-4 rounded-panel border border-line bg-card p-6 sm:p-8"
+          >
+            <RevealGroup className="divide-y divide-line" stagger={0.06}>
+              {p.actions.map((a) => (
+                <motion.div key={a.technique} variants={fadeUp} className="py-5 first:pt-0">
+                  <h4 className="font-display text-[1rem] font-medium text-ink">{a.technique}</h4>
+                  <p className="mt-1.5 max-w-[62ch] text-[0.9rem] text-ink-soft">{a.how}</p>
+                  <div className="mt-3.5 flex flex-wrap items-center gap-2">
+                    <span className="font-mono text-[0.66rem] uppercase tracking-[0.08em] text-ink-faint">
+                      Output
+                    </span>
+                    {a.outputs.map((o) => (
+                      <OutputChip key={o.label} {...o} />
+                    ))}
+                  </div>
+                </motion.div>
+              ))}
+            </RevealGroup>
+          </motion.div>
+        </AnimatePresence>
       </Container>
     </Section>
   );

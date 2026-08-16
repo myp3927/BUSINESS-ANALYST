@@ -5,7 +5,19 @@ import { Container, Reveal, RevealGroup, Section, SectionHeader } from "./Sectio
 import { CountUp } from "./CountUp";
 import { CompareTable } from "./CompareTable";
 import { Insight } from "./Insight";
+import { Cross } from "./Primitives";
 import { fadeUp } from "./motion";
+
+const HONEST_TAKE = [
+  {
+    title: "Không phải đại dương xanh",
+    body: "Điểm phù hợp AI giữa CV và JD là thứ ai cũng có — TopCV, VietnamWorks, CareerViet, Jobscan, Rezi, Teal đều đã làm.",
+  },
+  {
+    title: "Không có data moat",
+    body: "Không dữ liệu lương, không kho JD & CV thật mà nền tảng lớn sở hữu — nên không đánh ở đó.",
+  },
+];
 
 const STATS = [
   {
@@ -56,21 +68,26 @@ export function Market() {
         </Reveal>
 
         <Reveal className="mt-12">
-          <div className="flex flex-col gap-5 text-[0.98rem] leading-relaxed text-ink-soft">
-            <p className="max-w-prose">
-              <strong className="font-medium text-ink">
-                Kết luận trung thực đến trước: đây không phải đại dương xanh.
-              </strong>{" "}
-              Một điểm phù hợp AI giữa CV và công việc là thứ ai cũng có — TopCV, VietnamWorks, CareerViet, và các
-              công cụ toàn cầu như Jobscan, Rezi, Teal đều đã có.
-            </p>
-            <p className="max-w-prose">
-              Người viết cũng gọi tên điểm yếu cấu trúc của chính sản phẩm một cách thẳng thắn: là sản phẩm độc
-              lập, không có <em>data moat</em> — không dữ liệu lương, không kho mô tả công việc &amp; CV thật mà
-              các nền tảng lớn sở hữu. Nên không đánh ở đó.
-            </p>
-          </div>
+          <p className="max-w-prose text-[0.78rem] font-medium uppercase tracking-[0.06em] text-ink-faint">
+            Kết luận trung thực đến trước
+          </p>
         </Reveal>
+
+        <RevealGroup className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2" stagger={0.09}>
+          {HONEST_TAKE.map((it) => (
+            <motion.div
+              key={it.title}
+              variants={fadeUp}
+              className="card-shadow rounded-card border border-line bg-card p-6"
+            >
+              <span className="flex h-9 w-9 items-center justify-center rounded-frame border border-line bg-paper-sunken text-ink-faint">
+                <Cross />
+              </span>
+              <h3 className="mt-4 font-display text-[1.05rem] font-medium text-ink">{it.title}</h3>
+              <p className="mt-2 text-[0.88rem] text-ink-soft">{it.body}</p>
+            </motion.div>
+          ))}
+        </RevealGroup>
 
         <Reveal className="mt-8">
           <Insight>

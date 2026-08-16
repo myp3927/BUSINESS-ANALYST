@@ -75,11 +75,11 @@ export function ScoreModel() {
         <Reveal className="mt-8">
           <div className="rounded-card border border-white/10 bg-white/[0.04] p-6 sm:p-7">
             <p className="max-w-[70ch] text-[0.95rem] leading-relaxed text-white/70">
-              <strong className="font-medium text-white">Thang 0–100 có dải rõ ràng</strong> nên hai CV khác nhau
-              rơi vào những con số khác nhau thấy rõ — không có chuyện “ai cũng 70–80”. Và mô hình chấm theo{" "}
+              <strong className="font-medium text-white">Thang 0–100 có dải rõ ràng</strong> nên các CV khác nhau
+              ra điểm khác nhau thấy rõ. Mô hình chấm theo{" "}
               <strong className="font-medium text-white">ý nghĩa, không theo từ khoá</strong>: “ReactJS” bằng
-              “React”, ba năm Java vẫn tính cho một vị trí Spring. Mỗi kết quả tách thành điểm mạnh, điểm thiếu
-              và gợi ý — một con số biến thành thứ có thể hành động.
+              “React”. Mỗi kết quả tách thành điểm mạnh, điểm thiếu và gợi ý — một con số biến thành thứ có thể
+              hành động.
             </p>
           </div>
         </Reveal>

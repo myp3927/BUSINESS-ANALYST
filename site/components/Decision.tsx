@@ -1,5 +1,6 @@
 import { Container, Reveal, Section, SectionHeader } from "./Section";
 import { Check, Cross } from "./Primitives";
+import { Insight } from "./Insight";
 
 export function Decision() {
   return (
@@ -52,22 +53,25 @@ export function Decision() {
         </div>
 
         <Reveal className="mt-12">
-          <div className="mx-auto flex max-w-prose flex-col gap-5 text-[0.98rem] leading-relaxed text-ink-soft">
-            <p>
-              <strong className="font-medium text-ink">Vì sao:</strong> một chi tiết bịa là mất niềm tin cả sản
-              phẩm — cả ứng viên lẫn nhà tuyển dụng đều ra quyết định thật dựa trên kết quả này.
-            </p>
-            <p>
-              Một bài kiểm thử độc lập cho thấy <em>mọi</em> công cụ viết CV bằng AI được thử đều bịa số liệu khi
-              được yêu cầu “làm CV cho ấn tượng”. Từ chối làm thế không phải hạn chế — đó là điểm khác biệt.
-            </p>
-            <p>
-              Năm 2026, “có AI” không còn là điểm khác biệt — gần như mọi sản phẩm đều gắn AI. Giá trị nằm ở chỗ
-              chọn đúng nơi AI thật sự cần thiết: khớp một CV với một mô tả công việc là bài toán về{" "}
-              <em>ý nghĩa</em> (từ đồng nghĩa, kinh nghiệm tương đương, cấp độ, văn phong song ngữ) — không phải
-              so khớp từ khoá — rồi đưa nó vào một sản phẩm chạy thật, có rào chắn rõ ràng.
-            </p>
-          </div>
+          <p className="mx-auto max-w-prose text-[0.98rem] leading-relaxed text-ink-soft">
+            <strong className="font-medium text-ink">Vì sao:</strong> một chi tiết bịa là mất niềm tin cả sản
+            phẩm — cả ứng viên lẫn nhà tuyển dụng đều ra quyết định thật dựa trên kết quả này.
+          </p>
+        </Reveal>
+
+        <Reveal className="mx-auto mt-6 max-w-prose" delay={0.08}>
+          <Insight>
+            Một bài kiểm thử độc lập: mọi công cụ viết CV bằng AI được thử đều bịa số liệu khi yêu cầu “ấn tượng
+            hơn”. Từ chối làm vậy không phải hạn chế — đó là điểm khác biệt.
+          </Insight>
+        </Reveal>
+
+        <Reveal className="mt-6">
+          <p className="mx-auto max-w-prose text-[0.98rem] leading-relaxed text-ink-soft">
+            Năm 2026, “có AI” không còn là điểm khác biệt — giá trị nằm ở chỗ chọn đúng nơi AI thật sự cần
+            thiết. Khớp CV với JD là bài toán về <em>ý nghĩa</em> (từ đồng nghĩa, cấp độ, song ngữ) — không phải
+            so khớp từ khoá — rồi đưa vào một sản phẩm chạy thật, có rào chắn rõ ràng.
+          </p>
         </Reveal>
       </Container>
     </Section>

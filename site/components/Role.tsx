@@ -26,10 +26,9 @@ export function Role() {
             title="BA ra đề bài, AI thực thi, BA nghiệm thu"
             body={
               <>
-                Mọi quyết định về vấn đề cần giải, phạm vi, mô hình chấm điểm, tiêu chí chất lượng và thứ tự ưu
-                tiên đều do người viết ra đề bài, xét duyệt và kiểm thử; AI thực thi theo đúng yêu cầu và rào
-                chắn đã đặt ra — đúng bản chất công việc của một BA khi làm việc cùng AI: mô tả yêu cầu chính
-                xác, đặt giới hạn, và kiểm định chất lượng đầu ra.
+                Mọi quyết định về vấn đề, phạm vi, mô hình chấm điểm và thứ tự ưu tiên đều do người viết ra đề
+                bài, xét duyệt và kiểm thử. AI thực thi đúng yêu cầu và rào chắn đã đặt ra — đúng vai trò một BA
+                khi làm việc cùng AI.
               </>
             }
             bullets={[
