@@ -1,26 +1,23 @@
 import type { ReactElement } from "react";
-import { CheckMark, CrossMark, HalfMark, UnknownMark } from "./Marks";
+import { Check, Cross, Half, Unknown } from "./Primitives";
 
 type Mark = "yes" | "half" | "no" | "unk";
 
 const MARK_CLASS: Record<Mark, string> = {
-  yes: "text-good",
-  half: "text-amber",
-  no: "text-bad",
-  unk: "text-neutral-mark",
+  yes: "text-yes",
+  half: "text-half",
+  no: "text-no",
+  unk: "text-unknown",
 };
 
 const MARK_ICON = {
-  yes: (cls: string) => <CheckMark className={cls} />,
-  half: (cls: string) => <HalfMark className={cls} />,
-  no: (cls: string) => <CrossMark className={cls} />,
-  unk: (cls: string) => <UnknownMark className={cls} />,
-} satisfies Record<Mark, (cls: string) => ReactElement>;
+  yes: () => <Check className="h-4 w-4" />,
+  half: () => <Half className="h-4 w-4" />,
+  no: () => <Cross className="h-4 w-4" />,
+  unk: () => <Unknown className="h-4 w-4" />,
+} satisfies Record<Mark, () => ReactElement>;
 
-type Row = {
-  label: string;
-  cells: { mark: Mark; note?: string }[];
-};
+type Row = { label: string; cells: { mark: Mark; note?: string }[] };
 
 const COLS = ["AnalyzeCV", "TopCV", "VietnamWorks", "CareerViet", "Jobscan"];
 
@@ -45,13 +42,7 @@ const ROWS: Row[] = [
   },
   {
     label: "Chấm nhiều CV trong một lượt (batch)",
-    cells: [
-      { mark: "yes", note: "tới 20" },
-      { mark: "no" },
-      { mark: "no" },
-      { mark: "no" },
-      { mark: "no" },
-    ],
+    cells: [{ mark: "yes", note: "tới 20" }, { mark: "no" }, { mark: "no" }, { mark: "no" }, { mark: "no" }],
   },
   {
     label: "Thư viện CV trung tâm, lịch sử một nơi",
@@ -69,18 +60,18 @@ const ROWS: Row[] = [
 
 export function CompareTable() {
   return (
-    <div className="mt-9 overflow-x-auto rounded-[10px] border border-line">
-      <table className="w-full min-w-[640px] border-collapse bg-paper-sunken">
+    <div className="card-shadow overflow-x-auto rounded-card border border-line bg-card">
+      <table className="w-full min-w-[680px] border-collapse">
         <thead>
-          <tr className="bg-paper-raised">
-            <th className="sticky left-0 z-10 border-b border-line bg-paper-raised px-4 py-3.5 text-left font-mono text-[0.72rem] font-medium uppercase tracking-[0.06em] text-ink-faint">
+          <tr>
+            <th className="sticky left-0 z-10 border-b border-line bg-paper-sunken px-5 py-4 text-left font-mono text-[0.66rem] uppercase tracking-[0.08em] text-ink-faint">
               Năng lực
             </th>
             {COLS.map((c, i) => (
               <th
                 key={c}
-                className={`border-b border-line px-4 py-3.5 text-center font-mono text-[0.72rem] font-medium uppercase tracking-[0.06em] text-ink-faint ${
-                  i === 0 ? "bg-teal-tint" : ""
+                className={`border-b border-line px-4 py-4 text-center font-mono text-[0.66rem] uppercase tracking-[0.08em] ${
+                  i === 0 ? "bg-accent-tint text-ink" : "bg-paper-sunken text-ink-faint"
                 }`}
               >
                 {c}
@@ -91,21 +82,19 @@ export function CompareTable() {
         <tbody>
           {ROWS.map((r) => (
             <tr key={r.label}>
-              <td className="sticky left-0 z-10 border-b border-line bg-paper-sunken px-4 py-3.5 text-[0.94rem] last:border-none">
+              <td className="sticky left-0 z-10 border-b border-line bg-card px-5 py-4 text-[0.9rem] text-ink">
                 {r.label}
               </td>
               {r.cells.map((c, i) => (
                 <td
                   key={i}
-                  className={`border-b border-line px-4 py-3.5 text-center font-semibold last:border-none ${MARK_CLASS[c.mark]} ${
-                    i === 0 ? "bg-teal-tint" : ""
+                  className={`border-b border-line px-4 py-4 text-center ${MARK_CLASS[c.mark]} ${
+                    i === 0 ? "bg-accent-tint/60" : ""
                   }`}
                 >
-                  {MARK_ICON[c.mark]("")}
+                  <span className="inline-flex justify-center">{MARK_ICON[c.mark]()}</span>
                   {c.note && (
-                    <span className="mt-0.5 block font-mono text-[0.68rem] font-normal text-ink-faint">
-                      {c.note}
-                    </span>
+                    <span className="mt-1 block font-mono text-[0.62rem] text-ink-faint">{c.note}</span>
                   )}
                 </td>
               ))}

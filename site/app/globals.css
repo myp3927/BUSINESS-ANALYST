@@ -2,78 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+  Hệ màu lấy từ phân tích Fluence AI (xem PHAN-TICH-GIAO-DIEN-FLUENCE.md):
+  nền kem, mực gần đen, MỘT màu nhấn duy nhất (cam).
+  Site cố ý chỉ có một chế độ sáng — các khối tối là thành phần thiết kế, không phải dark mode.
+*/
 :root {
-  --paper: #eef0e7;
-  --paper-raised: #e3e7da;
-  --paper-sunken: #f7f8f2;
-  --ink: #152b27;
-  --ink-soft: #43584f;
-  --ink-faint: #728176;
-  --line: #c7cdbc;
-  --line-strong: #9fa895;
-  --teal: #0f6c63;
-  --teal-deep: #0a4a44;
-  --teal-tint: #dceae6;
-  --amber: #b87a22;
-  --amber-tint: #f2e2c0;
-  --good: #3f7a54;
-  --good-tint: #dcebdf;
-  --bad: #a14832;
-  --bad-tint: #f2ddd4;
-  --neutral-mark: #8b8262;
-  --c1: #0a4a44;
-  --c2: #146b62;
-  --c3: #2e8577;
-  --c4: #5da184;
-  --c5: #8fa666;
-  --c6: #c98a2e;
+  --paper: #f6f4f1;
+  --paper-sunken: #ebe7e1;
+  --paper-raised: #fbfbf8;
+  --card: #ffffff;
+
+  --ink: #0b0b09;
+  --ink-soft: #56544e;
+  --ink-faint: #8a8880;
+
+  --line: rgba(11, 11, 9, 0.1);
+  --line-strong: rgba(11, 11, 9, 0.18);
+
+  --accent: #fc5725;
+  --accent-soft: #f87c56;
+  --accent-tint: #fdeae2;
+
+  --night: #0b0b09;
+  --night-line: rgba(255, 255, 255, 0.09);
+  --night-soft: rgba(255, 255, 255, 0.62);
+
+  /* màu dữ liệu — chỉ dùng trong bảng so sánh, cố ý giảm bão hoà */
+  --yes: #2f7d5b;
+  --half: #b8862c;
+  --no: #c4472b;
+  --unknown: #8a8880;
+
   color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --paper: #0d1917;
-    --paper-raised: #152420;
-    --paper-sunken: #0a1412;
-    --ink: #e9ede6;
-    --ink-soft: #aebbb0;
-    --ink-faint: #7c897f;
-    --line: #28372f;
-    --line-strong: #3b4e43;
-    --teal: #54d6c4;
-    --teal-deep: #8de9db;
-    --teal-tint: #173330;
-    --amber: #e7b85b;
-    --amber-tint: #332810;
-    --good: #7fcb94;
-    --good-tint: #173225;
-    --bad: #e3927a;
-    --bad-tint: #33201a;
-    --neutral-mark: #9a9576;
-    color-scheme: dark;
-  }
-}
-
-:root[data-theme="dark"] {
-  --paper: #0d1917;
-  --paper-raised: #152420;
-  --paper-sunken: #0a1412;
-  --ink: #e9ede6;
-  --ink-soft: #aebbb0;
-  --ink-faint: #7c897f;
-  --line: #28372f;
-  --line-strong: #3b4e43;
-  --teal: #54d6c4;
-  --teal-deep: #8de9db;
-  --teal-tint: #173330;
-  --amber: #e7b85b;
-  --amber-tint: #332810;
-  --good: #7fcb94;
-  --good-tint: #173225;
-  --bad: #e3927a;
-  --bad-tint: #33201a;
-  --neutral-mark: #9a9576;
-  color-scheme: dark;
 }
 
 * {
@@ -82,30 +43,118 @@
 
 html {
   scroll-behavior: smooth;
+  /* khung 8px quanh trang — chi tiết tạo cảm giác "trang giấy trong khung" của Fluence */
+  background: var(--paper);
 }
 
 body {
+  margin: 0;
+  padding: 8px;
   background: var(--paper);
   color: var(--ink);
   font-feature-settings: "tnum" 1;
+  overflow-x: hidden;
 }
 
 ::selection {
-  background: var(--amber-tint);
+  background: var(--accent-tint);
   color: var(--ink);
 }
 
 a:focus-visible,
-button:focus-visible {
-  outline: 2px solid var(--teal);
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
-  border-radius: 3px;
+  border-radius: 4px;
 }
 
 .tnum {
   font-variant-numeric: tabular-nums;
 }
 
+/* ── Vật liệu ───────────────────────────────────────────── */
+
+/* vệt sáng mép trên của nút/nav tối — chi tiết "kính" của Fluence */
+.gloss {
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.24);
+}
+
+.glass-edge {
+  box-shadow:
+    inset -1px -1px 0 rgba(255, 255, 255, 0.3),
+    inset 1px 1px 0 rgba(255, 255, 255, 0.15);
+}
+
+.card-shadow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.float-shadow {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+/* hoa văn nền */
+.dot-pattern {
+  background-image: radial-gradient(currentColor 1px, transparent 1px);
+  background-size: 16px 16px;
+}
+
+.grid-pattern {
+  background-image:
+    linear-gradient(to right, currentColor 1px, transparent 1px),
+    linear-gradient(to bottom, currentColor 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* ── Lenis (cuộn quán tính) ─────────────────────────────── */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+html.lenis {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-stopped {
+  overflow: clip;
+}
+
+/* ── Marquee ────────────────────────────────────────────── */
+@keyframes marquee-left {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+  to {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+@keyframes marquee-right {
+  from {
+    transform: translate3d(-50%, 0, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  animation: marquee-left var(--marquee-duration, 30s) linear infinite;
+}
+
+.marquee-track[data-direction="right"] {
+  animation-name: marquee-right;
+}
+
+.marquee:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+/* ── Giảm chuyển động ───────────────────────────────────── */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;

@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { fraunces, plexMono, sourceSans } from "./fonts";
+import { display, mono, sans } from "./fonts";
+import { SmoothScroll } from "@/components/SmoothScroll";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "AnalyzeCV — Case Study",
+  title: "AnalyzeCV — Case Study Business Analyst",
   description:
     "Case study portfolio Business Analyst: hành trình xây AnalyzeCV từ nỗi đau cá nhân đến sản phẩm chạy thật.",
   icons: {
@@ -19,9 +20,12 @@ export default function RootLayout({
   return (
     <html
       lang="vi"
-      className={`${fraunces.variable} ${plexMono.variable} ${sourceSans.variable}`}
+      className={`${display.variable} ${sans.variable} ${mono.variable}`}
     >
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans text-[1rem] leading-[1.625] antialiased">
+        <SmoothScroll />
+        {children}
+      </body>
     </html>
   );
 }

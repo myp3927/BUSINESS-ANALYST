@@ -1,9 +1,9 @@
 "use client";
 
-import { Section } from "./Section";
-import { RevealGroup, revealItem } from "./Reveal";
 import { motion } from "framer-motion";
-import { CheckMark, CrossMark } from "./Marks";
+import { Container, Reveal, RevealGroup, Section, SectionHeader } from "./Section";
+import { Check, Cross } from "./Primitives";
+import { fadeUp } from "./motion";
 
 const NO_ITEMS = [
   {
@@ -26,48 +26,46 @@ const NO_ITEMS = [
 
 export function Scope() {
   return (
-    <Section
-      id="pham-vi"
-      eyebrow="Phạm vi & kỷ luật nói không"
-      title="Biết những gì không nên xây là một nửa của tư duy sản phẩm"
-      lede={
-        'Mỗi cái "không" giữ phạm vi đủ gọn để thật sự hoàn thành — và giữ trọng tâm vào điều duy nhất quan trọng: phân tích + lịch sử, ở một nơi.'
-      }
-    >
-      <RevealGroup className="mt-7 grid grid-cols-1 gap-3.5 sm:grid-cols-2">
-        {NO_ITEMS.map((it) => (
-          <motion.div
-            key={it.title}
-            variants={revealItem}
-            className="rounded-[10px] border border-line bg-paper-sunken px-5 py-5"
-          >
-            <span className="mb-3 flex h-[26px] w-[26px] items-center justify-center rounded-full bg-bad-tint text-bad">
-              <CrossMark />
+    <Section id="pham-vi">
+      <Container>
+        <SectionHeader
+          eyebrow="Phạm vi & kỷ luật nói không"
+          title="Biết những gì không nên xây là một nửa của tư duy sản phẩm"
+          lede='Mỗi cái "không" giữ phạm vi đủ gọn để thật sự hoàn thành — và giữ trọng tâm vào điều duy nhất quan trọng: phân tích + lịch sử, ở một nơi.'
+        />
+
+        <RevealGroup className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2" stagger={0.09}>
+          {NO_ITEMS.map((it) => (
+            <motion.div
+              key={it.title}
+              variants={fadeUp}
+              className="card-shadow group rounded-card border border-line bg-card p-6 transition-transform duration-300 hover:-translate-y-1"
+            >
+              <span className="flex h-9 w-9 items-center justify-center rounded-frame border border-line bg-paper-sunken text-ink-faint">
+                <Cross />
+              </span>
+              <h3 className="mt-5 font-display text-[1.125rem] font-medium text-ink">{it.title}</h3>
+              <p className="mt-2 text-[0.9rem] text-ink-soft">{it.body}</p>
+            </motion.div>
+          ))}
+        </RevealGroup>
+
+        <Reveal delay={0.15} className="mt-4">
+          <div className="card-shadow flex flex-col gap-4 rounded-card border border-accent/35 bg-accent-tint p-6 sm:flex-row sm:items-center sm:gap-6 sm:p-7">
+            <span className="flex h-9 w-9 flex-none items-center justify-center rounded-frame bg-gradient-to-b from-accent-soft to-accent text-white">
+              <Check />
             </span>
-            <h3 className="mb-1.5 text-[1.02rem] font-semibold text-ink">
-              {it.title}
-            </h3>
-            <p className="text-[0.94rem] text-ink-soft">{it.body}</p>
-          </motion.div>
-        ))}
-      </RevealGroup>
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true, margin: "-80px" }}
-        transition={{ duration: 0.5, delay: 0.3 }}
-        className="mt-3.5 rounded-[10px] border border-teal-deep bg-teal-tint px-5 py-5"
-      >
-        <span className="mb-3 flex h-[26px] w-[26px] items-center justify-center rounded-full bg-teal-deep text-[#F3F5EF]">
-          <CheckMark />
-        </span>
-        <h3 className="mb-1.5 text-[1.02rem] font-semibold text-ink">
-          Trọng tâm: phân tích + lịch sử, ở một nơi
-        </h3>
-        <p className="text-[0.94rem] text-ink-soft">
-          Mọi thứ khác đều là thứ làm xao nhãng khỏi điều đó.
-        </p>
-      </motion.div>
+            <div>
+              <h3 className="font-display text-[1.125rem] font-medium text-ink">
+                Trọng tâm: phân tích + lịch sử, ở một nơi
+              </h3>
+              <p className="mt-1.5 text-[0.9rem] text-ink-soft">
+                Mọi thứ khác đều là thứ làm xao nhãng khỏi điều đó.
+              </p>
+            </div>
+          </div>
+        </Reveal>
+      </Container>
     </Section>
   );
 }

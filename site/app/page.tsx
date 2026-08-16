@@ -1,5 +1,6 @@
 import { Nav } from "@/components/Nav";
 import { Hero } from "@/components/Hero";
+import { TrustBar } from "@/components/TrustBar";
 import { Context } from "@/components/Context";
 import { Role } from "@/components/Role";
 import { Scope } from "@/components/Scope";
@@ -19,6 +20,7 @@ export default function Home() {
       <Nav />
       <main>
         <Hero />
+        <TrustBar />
         <Context />
         <Role />
         <Scope />
