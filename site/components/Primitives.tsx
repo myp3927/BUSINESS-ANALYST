@@ -70,7 +70,7 @@ export function Eyebrow({
     <span
       className={`inline-flex items-center gap-2 rounded-full border px-3 py-1.5 font-mono text-eyebrow uppercase ${toneClass} ${className}`}
     >
-      <Sparkle className="h-3 w-3 text-accent" />
+      <Sparkle className={`h-3 w-3 ${tone === "dark" ? "text-accent-light" : "text-accent"}`} />
       {children}
     </span>
   );

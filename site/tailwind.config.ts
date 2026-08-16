@@ -17,6 +17,7 @@ const config: Config = {
         accent: "var(--accent)",
         "accent-soft": "var(--accent-soft)",
         "accent-tint": "var(--accent-tint)",
+        "accent-light": "var(--accent-light)",
         night: "var(--night)",
         "night-line": "var(--night-line)",
         "night-soft": "var(--night-soft)",

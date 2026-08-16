@@ -4,11 +4,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import { EASE } from "./motion";
 
+/** Thang 6 bậc đi từ cyan → trung tính, trọng số càng lớn màu càng đậm. */
 export const SEGMENTS = [
-  { color: "#FC5725", label: "Kỹ năng chuyên môn cốt lõi", weight: 25 },
-  { color: "#F97A4D", label: "Kinh nghiệm & cấp độ", weight: 20 },
-  { color: "#F59B7F", label: "Công cụ & công nghệ", weight: 15 },
-  { color: "#E0B5A2", label: "Phương pháp & quy trình", weight: 15 },
+  { color: "#2AA9C4", label: "Kỹ năng chuyên môn cốt lõi", weight: 25 },
+  { color: "#4FC3DC", label: "Kinh nghiệm & cấp độ", weight: 20 },
+  { color: "#7FD4E5", label: "Công cụ & công nghệ", weight: 15 },
+  { color: "#A8DDE8", label: "Phương pháp & quy trình", weight: 15 },
   { color: "#C9C3BA", label: "Kiến thức lĩnh vực", weight: 15 },
   { color: "#8A8880", label: "Kỹ năng mềm & giao tiếp", weight: 10 },
 ];

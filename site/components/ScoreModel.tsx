@@ -49,7 +49,7 @@ export function ScoreModel() {
                   <div className="font-display text-[1rem] font-medium text-white">{s.label}</div>
                   <div className="mt-1 text-[0.85rem] text-white/50">{REASONS[s.label]}</div>
                 </div>
-                <span className="tnum flex-none font-mono text-[1rem] text-accent">{s.weight}%</span>
+                <span className="tnum flex-none font-mono text-[1rem] text-accent-light">{s.weight}%</span>
               </motion.div>
             ))}
           </RevealGroup>

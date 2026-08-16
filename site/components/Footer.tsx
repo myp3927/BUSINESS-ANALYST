@@ -40,7 +40,7 @@ export function Footer() {
       <div aria-hidden="true" className="dot-pattern pointer-events-none absolute inset-0 text-white/[0.07]" />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -top-40 left-1/2 h-[420px] w-[760px] -translate-x-1/2 rounded-full bg-accent/15 blur-[130px]"
+        className="pointer-events-none absolute -top-40 left-1/2 h-[420px] w-[760px] -translate-x-1/2 rounded-full bg-accent-light/10 blur-[130px]"
       />
 
       <div className="relative">

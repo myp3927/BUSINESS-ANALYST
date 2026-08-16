@@ -105,7 +105,7 @@ export function NightBlock({
       />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -top-40 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-accent/10 blur-[120px]"
+        className="pointer-events-none absolute -top-40 left-1/2 h-[420px] w-[720px] -translate-x-1/2 rounded-full bg-accent-light/10 blur-[120px]"
       />
       <div className="relative">{children}</div>
     </section>

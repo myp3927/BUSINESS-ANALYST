@@ -32,8 +32,8 @@ function ScorePanel() {
         <span className="rounded-frame border border-white/10 bg-white/5 px-2.5 py-1.5 text-white/80">
           JD — Business Analyst
         </span>
-        <span className="ml-auto flex items-center gap-1.5 text-accent">
-          <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+        <span className="ml-auto flex items-center gap-1.5 text-accent-light">
+          <span className="h-1.5 w-1.5 rounded-full bg-accent-light" />
           done
         </span>
       </div>
@@ -59,7 +59,7 @@ function ScorePanel() {
           initial={{ width: 0 }}
           animate={{ width: "82%" }}
           transition={{ duration: 1.4, delay: 0.7, ease: EASE }}
-          className="h-full rounded-full bg-gradient-to-r from-accent-soft to-accent"
+          className="h-full rounded-full bg-gradient-to-r from-accent to-accent-light"
         />
       </div>
 
@@ -97,7 +97,7 @@ export function Hero() {
       <div aria-hidden="true" className="dot-pattern pointer-events-none absolute inset-0 text-white/[0.08]" />
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute -top-[280px] left-1/2 h-[720px] w-[900px] -translate-x-1/2 rounded-full bg-accent/15 blur-[140px]"
+        className="pointer-events-none absolute -top-[280px] left-1/2 h-[720px] w-[900px] -translate-x-1/2 rounded-full bg-accent-light/10 blur-[140px]"
       />
       <div
         aria-hidden="true"
@@ -160,7 +160,7 @@ export function Hero() {
               transition={{ duration: 2.6, delay: 1 + i * 0.3, ease: EASE }}
               className="flex items-center gap-2.5 rounded-frame border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-left text-[0.82rem] text-white/70"
             >
-              <span className="h-5 w-5 flex-none rounded-[5px] bg-gradient-to-b from-accent-soft to-accent" />
+              <span className="h-5 w-5 flex-none rounded-[5px] bg-gradient-to-b from-accent-light to-accent" />
               {f}
             </motion.div>
           ))}

@@ -20,9 +20,13 @@
   --line: rgba(11, 11, 9, 0.1);
   --line-strong: rgba(11, 11, 9, 0.18);
 
-  --accent: #fc5725;
-  --accent-soft: #f87c56;
-  --accent-tint: #fdeae2;
+  /* cyan — một màu nhấn duy nhất cho nút, số liệu, badge, icon.
+     Bản đậm dùng trên nền kem (đủ tương phản để đặt chữ trắng lên trên). */
+  --accent: #0e7490;
+  --accent-soft: #2c9cb8;
+  --accent-tint: #ddeff4;
+  /* bản sáng, chỉ dùng cho chữ/icon nằm trên khối tối */
+  --accent-light: #4fc3dc;
 
   --night: #0b0b09;
   --night-line: rgba(255, 255, 255, 0.09);
