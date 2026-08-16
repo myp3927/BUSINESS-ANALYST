@@ -61,7 +61,13 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
       {
         technique: "User Story + Acceptance Criteria",
         how: "Mô tả đúng việc AI nên làm và giới hạn rõ việc AI không được làm, trước khi bắt đầu build.",
-        outputs: [{ label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" }],
+        outputs: [
+          { label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" },
+          {
+            label: "US đầy đủ — Tiến trình đánh giá độ phù hợp (AICV-17)",
+            href: "https://github.com/myp3927/BUSINESS-ANALYST/blob/main/docs/user-stories/tien-trinh-danh-gia-do-phu-hop.md",
+          },
+        ],
       },
       {
         technique: "Đặc tả luồng trạng thái cho hệ thống",
@@ -113,8 +119,13 @@ function OutputChip({ label, href }: { label: string; href?: string }) {
   );
   const base =
     "inline-flex items-center gap-2 rounded-frame border border-accent/25 bg-accent-tint px-3 py-2 text-[0.8rem] text-ink no-underline";
+  const external = href?.startsWith("http");
   return href ? (
-    <a href={href} className={`${base} transition-colors hover:border-accent/50`}>
+    <a
+      href={href}
+      className={`${base} transition-colors hover:border-accent/50`}
+      {...(external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+    >
       {inner}
     </a>
   ) : (
