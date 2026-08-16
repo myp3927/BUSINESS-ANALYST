@@ -65,7 +65,6 @@ const PHASES: { n: string; name: string; actions: Action[] }[] = [
         technique: "User Story + Acceptance Criteria",
         how: "Mô tả đúng việc AI nên làm và giới hạn rõ việc AI không được làm, trước khi bắt đầu build.",
         outputs: [
-          { label: "User Story mẫu MH 2.1 — 4 tiêu chí chấp nhận", href: "#vai-tro" },
           {
             label: "US đầy đủ — Tiến trình đánh giá độ phù hợp (AICV-17)",
             doc: {
