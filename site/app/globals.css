@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --paper: #eef0e7;
+  --paper-raised: #e3e7da;
+  --paper-sunken: #f7f8f2;
+  --ink: #152b27;
+  --ink-soft: #43584f;
+  --ink-faint: #728176;
+  --line: #c7cdbc;
+  --line-strong: #9fa895;
+  --teal: #0f6c63;
+  --teal-deep: #0a4a44;
+  --teal-tint: #dceae6;
+  --amber: #b87a22;
+  --amber-tint: #f2e2c0;
+  --good: #3f7a54;
+  --good-tint: #dcebdf;
+  --bad: #a14832;
+  --bad-tint: #f2ddd4;
+  --neutral-mark: #8b8262;
+  --c1: #0a4a44;
+  --c2: #146b62;
+  --c3: #2e8577;
+  --c4: #5da184;
+  --c5: #8fa666;
+  --c6: #c98a2e;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #0d1917;
+    --paper-raised: #152420;
+    --paper-sunken: #0a1412;
+    --ink: #e9ede6;
+    --ink-soft: #aebbb0;
+    --ink-faint: #7c897f;
+    --line: #28372f;
+    --line-strong: #3b4e43;
+    --teal: #54d6c4;
+    --teal-deep: #8de9db;
+    --teal-tint: #173330;
+    --amber: #e7b85b;
+    --amber-tint: #332810;
+    --good: #7fcb94;
+    --good-tint: #173225;
+    --bad: #e3927a;
+    --bad-tint: #33201a;
+    --neutral-mark: #9a9576;
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  --paper: #0d1917;
+  --paper-raised: #152420;
+  --paper-sunken: #0a1412;
+  --ink: #e9ede6;
+  --ink-soft: #aebbb0;
+  --ink-faint: #7c897f;
+  --line: #28372f;
+  --line-strong: #3b4e43;
+  --teal: #54d6c4;
+  --teal-deep: #8de9db;
+  --teal-tint: #173330;
+  --amber: #e7b85b;
+  --amber-tint: #332810;
+  --good: #7fcb94;
+  --good-tint: #173225;
+  --bad: #e3927a;
+  --bad-tint: #33201a;
+  --neutral-mark: #9a9576;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: "tnum" 1;
+}
+
+::selection {
+  background: var(--amber-tint);
+  color: var(--ink);
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
