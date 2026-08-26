@@ -71,6 +71,7 @@ Nguyên tắc đằng sau (áp dụng cho mọi câu hỏi biến thể của c�
 **Xác minh công ty (mới, từ research hôm nay):**
 - "Em có đọc được là Excel Technologies có liên kết với Tập đoàn GREENFEED — anh/chị có thể xác nhận và chia sẻ thêm về mối quan hệ này không?" (JD có câu "thành viên của một Tập Đoàn đang phát triển" nhưng chưa xác nhận 100% từ nguồn chính thức)
 - "Vị trí BA này sẽ làm chính cho sản phẩm/dự án nào — ERP nội bộ, hay 1 trong các sản phẩm như Wisere/DigiFarm/DigiAqua, hay 1 dự án mới?"
+- "Team hiện áp dụng quy trình Agile/Scrum chính thức không, hay linh hoạt theo từng dự án? Bên mình có làm song song cả sản phẩm SaaS riêng (Wisere, DigiFarm...) lẫn dự án custom theo yêu cầu khách hàng/tập đoàn không — nếu có thì BA có phải cover nhiều sản phẩm cùng lúc không?"
 
 **Về team & quản lý (từ mâu thuẫn review đã tổng hợp):**
 - Số lượng BA/PM hiện tại trong team, quản lý trực tiếp là ai và phong cách quản lý?

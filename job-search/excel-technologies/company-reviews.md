@@ -59,6 +59,19 @@ Lưu ý kỹ thuật: `exceltech.vn`, LinkedIn, ITviec, Google Play, Facebook đ
 
 **Ghi chú quan trọng cho bạn:** Có **3 review từ chính vị trí Business Analyst** (10/2023) — đều 5 sao, đều tích cực về môi trường, phúc lợi, WFH — đây là tín hiệu tốt vì gần sát nhất với vị trí bạn đang ứng tuyển. Review tiêu cực nhất (3 sao, "toxic", "sếp trình độ thấp") là **12/2024**, từ vị trí không ghi rõ — cùng khung thời gian với review tiêu cực 1 sao trên ITviec (07/2024). Hai nguồn độc lập cùng chỉ ra vấn đề quản lý rơi vào khoảng **giữa 2024**, đáng để hỏi thẳng khi phỏng vấn xem có thay đổi nhân sự quản lý nào từ giai đoạn đó đến nay không.
 
+## Cách công ty xây dựng hệ thống / mô hình sản phẩm
+
+Nguồn: web search gián tiếp (wisere.com, digifarm.cloud, Google Play, App Store đều bị egress proxy chặn fetch trực tiếp từ môi trường này — không lấy được nguyên văn trang gốc, chỉ có bản tóm tắt qua tìm kiếm). Xác minh lại khi phỏng vấn nếu cần chi tiết sâu hơn.
+
+- **Mô hình đa sản phẩm dọc ngành (vertical SaaS)**, không phải 1 hệ thống lớn duy nhất:
+  - **Wisere** (wisere.com) — SaaS quản lý phòng khám: đặt lịch hẹn, hồ sơ bệnh án, quản lý vật liệu/bác sĩ. Ban đầu cho nha khoa, đang mở rộng sang spa. *Đính chính:* đây là phần mềm bán cho **chủ phòng khám** để vận hành, không phải app đặt lịch đa dịch vụ cho người dùng cuối như từng suy đoán.
+  - **DigiFarm** — SaaS + IoT quản lý trang trại chăn nuôi: cảm biến nhiệt độ/độ ẩm, camera giám sát vật nuôi, điều khiển từ xa thiết bị (quạt/đèn/bơm/cho ăn), cảnh báo sự cố real-time, dashboard cloud.
+  - **DigiAqua** — cùng mô hình, cho nuôi trồng thủy sản. Ít thông tin công khai.
+  - Mỗi sản phẩm có app riêng trên cả Google Play và App Store (kiến trúc multi-app theo từng dọc sản phẩm, không gộp chung).
+- **Phần cứng:** đối tác chính thức SUNMI (từ 7/2026) — thiết bị POS/IoT cho bán lẻ, F&B, logistics, y tế → công ty có làm giải pháp tích hợp phần cứng-phần mềm, không chỉ software thuần.
+- **Mô hình lai (quan trọng cho vị trí đang ứng tuyển):** JD mô tả công ty "tư vấn, thiết kế, xây dựng, quản lý, vận hành ứng dụng kinh doanh" — ngoài các SaaS tự sở hữu (Wisere/DigiFarm/DigiAqua), công ty còn nhận **dự án custom theo yêu cầu** (khả năng cao là hệ thống ERP/CRM nội bộ cho GREENFEED — đúng loại hình công việc của vị trí này).
+- **Chưa xác định được:** tech stack cụ thể (.NET/Java/Node/React...), quy trình Agile/Scrum có áp dụng chính thức hay không — không có nguồn xác nhận công khai. **Nên hỏi thẳng khi phỏng vấn**, đừng đoán.
+
 ## Range lương tham khảo
 
 **Lương cụ thể của Excel Technologies (ExcelTech VN) — không có dữ liệu công khai.** JD ghi "Thoả thuận", các review (ITviec/Note8) chỉ nói định tính ("lương tốt", "minh bạch") chứ không có con số. Glassdoor có trang "Excel Technologies Salaries" nhưng đó là **công ty khác ở Mỹ** (Excel Technologies International/Solutions, có role Cyber Security Analyst) — không liên quan đến ExcelTech VN, không dùng số liệu đó.
