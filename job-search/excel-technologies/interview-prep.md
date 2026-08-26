@@ -29,7 +29,7 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 **1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt** (học ý, luyện nói tự nhiên, không học thuộc từng chữ — khoảng 60-90 giây khi nói):
 
-> *"Em là Phương, Business Analyst gần 3 năm, chuyên về ERP, CRM và Retail — đúng những mảng bên mình đang ưu tiên.*
+> *"Em là Phương, làm Business Analyst được gần 3 năm, chủ yếu trong hai mảng ERP và Retail.*
 >
 > *Hiện tại em đang là BA duy nhất tại Vietnix, đặc tả từ đầu một hệ thống ERP nội bộ và cổng khách hàng tự phục vụ — 2 hệ thống, 40 module, phục vụ hơn 15,000 khách hàng. Em làm toàn bộ vòng đời: từ chạy workshop khám phá nghiệp vụ với 5 phòng ban, viết hơn 125 User Story và SRS, mô hình hóa quy trình bằng BPMN, đến khi UAT đạt tỷ lệ pass lần đầu khoảng 90%.*
 >
@@ -40,7 +40,7 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 > *Em thấy JD của Excel Technologies rất khớp với những gì em đã làm — đặc biệt là mảng ERP và Retail — nên em rất muốn tìm hiểu kỹ hơn về vị trí này."*
 
 **Nguyên tắc khi trình bày:**
-- Thứ tự: hook 1 câu (kinh nghiệm + đúng domain JD cần) → Vietnix (câu chuyện gần nhất, chi tiết nhất) → NDS (câu chuyện quy mô lớn hơn, vai trò kép BA+PO) → điểm khác biệt (AI-assisted workflow) → câu chốt nối sang JD.
+- Thứ tự: hook 1 câu (nói thật về chuyên môn — domain trùng JD tự nhiên xuất hiện qua đó, không cần chỉ thẳng "đúng cái bên mình cần" nghe gượng ép) → Vietnix (câu chuyện gần nhất, chi tiết nhất) → NDS (câu chuyện quy mô lớn hơn, vai trò kép BA+PO) → điểm khác biệt (AI-assisted workflow) → câu chốt nối sang JD (chỗ này mới nên nhắc trực tiếp đến JD/công ty, vì đó là lúc hợp lý để nói lý do ứng tuyển).
 - Đừng liệt kê hết mọi con số trong CV — chỉ chọn 3-4 con số ấn tượng nhất (40 module, 15,000+ khách hàng, 500K đánh giá AI/tháng, ~90% UAT pass, ~30% giảm thời gian) để không bị đọc như đang trả bài.
 - Nói chậm, dừng hơi giữa 2 công ty — đừng nói liền một mạch không ngắt.
 - Nếu bị ngắt hỏi thêm giữa chừng thì trả lời tự nhiên, không cố nói hết bài đã chuẩn bị.
