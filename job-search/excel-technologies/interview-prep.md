@@ -29,7 +29,9 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 **1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt, bản ngắn** (~20-25 giây, học ý chứ không học thuộc từng chữ):
 
-> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em là BA duy nhất tại Vietnix, phụ trách hệ thống ERP nội bộ cho công ty đang phục vụ hơn 15,000 khách hàng. Trước đó em làm BA kiêm Product Owner ở NDS, cho một nền tảng AI phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình làm việc để rút ngắn thời gian chuẩn bị tài liệu, và tự xây một sản phẩm cá nhân theo cách đó."*
+> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em là BA duy nhất tại Vietnix, đặc tả một hệ thống ERP và cổng khách hàng phục vụ hơn 15,000 khách hàng của công ty. Trước đó em làm BA kiêm Product Owner ở NDS, cho nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình đặc tả yêu cầu để rút ngắn thời gian làm tài liệu, và dùng chính cách đó để tự xây một sản phẩm SaaS cá nhân."*
+
+**Lưu ý (rút ra từ 1 lần thử nghe theo góc HR):** bản rút gọn trước đó cắt quá tay, gây 2 lỗi: (1) nói "ERP nội bộ phục vụ 15,000 khách hàng" — vô lý vì ERP nội bộ và cổng khách hàng là 2 hệ thống khác nhau trong CV, gộp lại nghe như không hiểu rõ chính hệ thống mình làm; (2) cắt mất "chấm điểm trưng bày bán lẻ" ở phần NDS — mất luôn bằng chứng cho chữ "Retail" đã nói ở câu mở đầu, khiến lời khẳng định đó thành nói suông. Rút gọn cần giữ đủ thông tin để câu chuyện còn logic, không phải cắt bằng mọi giá.
 
 → Chỉ 4 câu. **Giới thiệu bản thân là để mở đầu, không phải kể hết CV** — chi tiết cụ thể (125+ User Story, BPMN, UAT ~90% pass, 4 team chức năng, 500K đánh giá AI/tháng...) để dành trả lời khi HR hỏi đào sâu ở các câu 2-8 phía dưới, không nhét hết vào đây.
 
