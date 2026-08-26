@@ -27,23 +27,16 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 ## Dự đoán câu hỏi + hướng trả lời (dùng số liệu thật, đừng bịa thêm)
 
-**1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt** (học ý, luyện nói tự nhiên, không học thuộc từng chữ — khoảng 60-90 giây khi nói):
+**1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt, bản ngắn** (~20-25 giây, học ý chứ không học thuộc từng chữ):
 
-> *"Em là Phương, làm Business Analyst được gần 3 năm, chủ yếu trong hai mảng ERP và Retail.*
->
-> *Hiện tại em đang là BA duy nhất tại Vietnix, đặc tả từ đầu một hệ thống ERP nội bộ và cổng khách hàng tự phục vụ — 2 hệ thống, 40 module, phục vụ hơn 15,000 khách hàng. Em làm toàn bộ vòng đời: từ chạy workshop khám phá nghiệp vụ với 5 phòng ban, viết hơn 125 User Story và SRS, mô hình hóa quy trình bằng BPMN, đến khi UAT đạt tỷ lệ pass lần đầu khoảng 90%.*
->
-> *Trước đó em làm BA kiêm Product Owner tại NDS, cho một nền tảng AI chấm điểm trưng bày bán lẻ — phục vụ 3 khách hàng FMCG lớn như Pepsi, BEL, SABECO, xử lý khoảng 500 nghìn lượt đánh giá AI mỗi tháng. Ở đó em vừa đặc tả yêu cầu, vừa quản lý backlog cho 4 nhóm chức năng khác nhau với vai trò Product Owner.*
->
-> *Có một điều em nghĩ hơi khác so với cách làm truyền thống là em có xây một quy trình đặc tả yêu cầu ứng dụng AI — giúp giảm khoảng 30% thời gian chuẩn bị tài liệu, nhưng vẫn giữ bước kiểm duyệt thủ công trước khi chấp nhận bất kỳ output nào. Em cũng dùng chính cách làm đó để tự xây một sản phẩm SaaS cá nhân từ đầu đến khi ra bản demo.*
->
-> *Đó cũng là lý do em thấy hứng thú với vị trí này bên mình."*
+> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em là BA duy nhất tại Vietnix, phụ trách hệ thống ERP nội bộ cho công ty đang phục vụ hơn 15,000 khách hàng. Trước đó em làm BA kiêm Product Owner ở NDS, cho một nền tảng AI phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình làm việc để rút ngắn thời gian chuẩn bị tài liệu, và tự xây một sản phẩm cá nhân theo cách đó."*
+
+→ Chỉ 4 câu. **Giới thiệu bản thân là để mở đầu, không phải kể hết CV** — chi tiết cụ thể (125+ User Story, BPMN, UAT ~90% pass, 4 team chức năng, 500K đánh giá AI/tháng...) để dành trả lời khi HR hỏi đào sâu ở các câu 2-8 phía dưới, không nhét hết vào đây.
 
 **Nguyên tắc khi trình bày:**
-- Thứ tự: hook 1 câu (nói thật về chuyên môn — domain trùng JD tự nhiên xuất hiện qua đó) → Vietnix (câu chuyện gần nhất, chi tiết nhất) → NDS (câu chuyện quy mô lớn hơn, vai trò kép BA+PO) → điểm khác biệt (AI-assisted workflow) → câu chốt ngắn gọn về hứng thú với vị trí.
-- **Tránh lặp lại lỗi "tự dán nhãn khớp JD"** ở bất kỳ đâu trong bài — kể cả câu chốt cuối. Đừng nói kiểu "JD khớp với ERP/Retail của em nên em muốn ứng tuyển" — nghe như đang giải trình logic thay vì bày tỏ hứng thú thật. Để NTD tự nối các câu chuyện ERP/Retail bạn vừa kể với JD, không cần bạn chỉ ra hộ.
-- Đừng liệt kê hết mọi con số trong CV — chỉ chọn 3-4 con số ấn tượng nhất (40 module, 15,000+ khách hàng, 500K đánh giá AI/tháng, ~90% UAT pass, ~30% giảm thời gian) để không bị đọc như đang trả bài.
-- Nói chậm, dừng hơi giữa 2 công ty — đừng nói liền một mạch không ngắt.
+- Ngắn gọn là ưu tiên số 1 — thà thiếu chi tiết còn hơn dài dòng, HR sẽ tự hỏi thêm nếu muốn biết sâu hơn.
+- Thứ tự: 1 câu hiện tại (chuyên môn) → 1 câu Vietnix → 1 câu NDS → 1 câu điểm khác biệt (AI). Hết, không thêm câu chốt dài dòng.
+- **Tránh "tự dán nhãn khớp JD"** — đừng nói kiểu "JD khớp với ERP/Retail của em nên em ứng tuyển". Để NTD tự nối các câu chuyện với JD, không cần chỉ ra hộ.
 - Nếu bị ngắt hỏi thêm giữa chừng thì trả lời tự nhiên, không cố nói hết bài đã chuẩn bị.
 
 **2. Kinh nghiệm với ERP/CRM/Retail/Inventory/E-commerce cụ thể ra sao?**
