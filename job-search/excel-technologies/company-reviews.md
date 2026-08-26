@@ -1,19 +1,21 @@
 # Tổng hợp Review về Excel Technologies (ExcelTech)
 
-Tổng hợp từ ITviec, 1900.com.vn, Note8.vn, báo chí (Cafebiz). Ghi ngày tổng hợp: 2026-08-26.
+Tổng hợp từ ITviec, 1900.com.vn, Note8.vn, báo chí (Cafebiz), tìm kiếm bổ sung. Ghi ngày tổng hợp: 2026-08-26.
 Lưu ý: các review trái chiều nhau khá nhiều — đọc cả 2 chiều trước khi phỏng vấn.
+Lưu ý kỹ thuật: `exceltech.vn`, LinkedIn, ITviec, Google Play, Facebook đều không fetch trực tiếp được từ môi trường này (egress bị chặn) — thông tin dưới đây lấy qua kết quả tìm kiếm (web search), có thể là bản tóm tắt gián tiếp chứ không phải trích nguyên văn trang gốc. Xác minh lại trên chính exceltech.vn khi có điều kiện.
 
 ## Thông tin công ty
 
 - Trụ sở chính: Tầng 20, Toà nhà Centec, 72-74 Nguyễn Thị Minh Khai, Q3, TP.HCM.
 - Văn phòng làm việc (theo JD): Tầng 7, Toà nhà 268 Trần Hưng Đạo, Q5, TP.HCM.
-- Quy mô: công ty vừa/nhỏ, đang trong giai đoạn mở rộng (theo review nhân viên).
-- Sản phẩm nổi bật:
-  - **Wisere** — phần mềm quản lý phòng khám nha khoa, giải Sao Khuê 2023.
-  - **DigiFarm** — phần mềm quản lý trang trại/năng suất vật nuôi, giải Sao Khuê 2024.
+- **Quy mô nhân sự:** nguồn không thống nhất — ZoomInfo ghi 20-49 người, RocketReach ghi 56 người. Cả hai đều xác nhận đây là công ty **rất nhỏ** (không phải "vừa" như suy đoán trước đây). Độ tin cậy: trung bình (data aggregator, không phải số công ty tự công bố) — nên hỏi thẳng khi phỏng vấn.
+- Sản phẩm nổi bật (xác nhận qua Google Play + giải thưởng):
+  - **Wisere** — theo mô tả gốc là phần mềm quản lý phòng khám nha khoa (giải Sao Khuê 2023, hạng mục Giải pháp/Phần mềm mới); một kết quả tìm kiếm khác lại mô tả Wisere như app đặt lịch đa dịch vụ (cắt tóc, nail, spa, nha khoa) — hai mô tả không khớp hoàn toàn, cần hỏi lại để xác nhận đúng phạm vi sản phẩm.
+  - **DigiFarm** — phần mềm quản lý trang trại/năng suất chăn nuôi, tích hợp IoT (cảm biến nhiệt độ/độ ẩm, điều khiển quạt/đèn/bơm/cho ăn từ xa). Giải Sao Khuê 2024 (Phần mềm xuất sắc) + giải Top Công nghệ 4.0 Việt Nam 2023.
+  - **DigiAqua** (mới phát hiện, chưa có trong bản tổng hợp trước) — app trên Google Play (package `vn.exceltech.digiaqua`), mảng quản lý nuôi trồng thủy sản — mở rộng thêm ngành so với y tế/nông nghiệp/làm đẹp/bán lẻ đã biết.
   - Đối tác chính thức của **SUNMI** tại Việt Nam (từ tháng 7/2026) — thiết bị phần cứng cho bán lẻ, F&B, logistics, y tế.
-- Ngành đa dạng: y tế, nông nghiệp, làm đẹp, bán lẻ — theo review nhân viên trên ITviec.
-- Theo 1 kết quả tìm kiếm, công ty được nhắc đến là **thành viên thuộc Tập đoàn GREENFEED** — khớp với câu "Là thành viên của một Tập Đoàn đang phát triển" trong JD. Thông tin này chưa kiểm chứng chéo được từ nguồn chính thức (exceltech.vn), nên xác nhận lại khi phỏng vấn.
+- Ngành đa dạng: y tế, nông nghiệp (chăn nuôi + thủy sản), làm đẹp, bán lẻ.
+- **Quan hệ với Tập đoàn GREENFEED — có thêm bằng chứng gián tiếp củng cố nhưng vẫn chưa phải xác nhận chính thức 100%:** trang chính thức của GREENFEED (greenfeed.com.vn) có bài viết nói chính GREENFEED "ra mắt ứng dụng quản lý trang trại từ xa DigiFarm" — mà DigiFarm là sản phẩm mang thương hiệu/giải thưởng của Excel Technologies. Điều này khớp với câu "Là thành viên của một Tập Đoàn đang phát triển" trong JD, và khớp việc GREENFEED đang chạy nền tảng ERP-SCADA-SCM nội bộ. Tuy nhiên chưa tìm được trang nào của chính exceltech.vn nói thẳng "chúng tôi là thành viên GREENFEED" (trang đó không fetch được). **Kết luận: khả năng cao đúng, nhưng vẫn nên hỏi thẳng nhà tuyển dụng để xác nhận 100%**, vì đây là chi tiết quan trọng ảnh hưởng tới hiểu biết về quy mô, nguồn lực, và định hướng sản phẩm công ty.
 - ITviec (LinkedIn, 2023) xếp Excel Technologies **hạng 3/15 "Công ty IT tốt nhất Việt Nam 2023 - Quy mô vừa và nhỏ"** (dưới 300 nhân viên).
 
 ## Review theo mốc thời gian (từ cũ đến mới)
