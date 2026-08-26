@@ -29,7 +29,9 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 **1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt, bản ngắn** (~20-25 giây, học ý chứ không học thuộc từng chữ):
 
-> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em là BA duy nhất tại Vietnix, đặc tả một hệ thống ERP và cổng khách hàng phục vụ hơn 15,000 khách hàng của công ty. Trước đó em làm BA kiêm Product Owner ở NDS, cho nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình đặc tả yêu cầu để rút ngắn thời gian làm tài liệu, và dùng chính cách đó để tự xây một sản phẩm SaaS cá nhân."*
+> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em đang làm ở Vietnix, đặc tả một hệ thống ERP và cổng khách hàng phục vụ hơn 15,000 khách hàng của công ty. Trước đó em làm BA kiêm Product Owner ở NDS, cho nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình đặc tả yêu cầu để rút ngắn thời gian làm tài liệu, và dùng chính cách đó để tự xây một sản phẩm SaaS cá nhân."*
+
+**Lưu ý:** bỏ chữ "duy nhất" (sole BA) ra khỏi bản giới thiệu ngắn — không phải thông tin bắt buộc phải chủ động nói, và nói ra có thể mời câu hỏi ngược "sao có 1 mình, team nhỏ vậy à" mà chưa chắc muốn mở ngay từ đầu. Để dành trả lời tự nhiên nếu HR hỏi "team BA bên đó bao nhiêu người" — lúc đó nói "duy nhất" sẽ nghe như câu trả lời trực tiếp cho câu hỏi, không phải chủ động khoe.
 
 **Lưu ý (rút ra từ 1 lần thử nghe theo góc HR):** bản rút gọn trước đó cắt quá tay, gây 2 lỗi: (1) nói "ERP nội bộ phục vụ 15,000 khách hàng" — vô lý vì ERP nội bộ và cổng khách hàng là 2 hệ thống khác nhau trong CV, gộp lại nghe như không hiểu rõ chính hệ thống mình làm; (2) cắt mất "chấm điểm trưng bày bán lẻ" ở phần NDS — mất luôn bằng chứng cho chữ "Retail" đã nói ở câu mở đầu, khiến lời khẳng định đó thành nói suông. Rút gọn cần giữ đủ thông tin để câu chuyện còn logic, không phải cắt bằng mọi giá.
 
