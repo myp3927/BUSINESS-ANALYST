@@ -27,8 +27,23 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 ## Dự đoán câu hỏi + hướng trả lời (dùng số liệu thật, đừng bịa thêm)
 
-**1. Giới thiệu bản thân / kinh nghiệm BA**
-→ Đi theo 2 công ty: Vietnix (ERP greenfield, sole BA, 40 module, 15,000+ khách hàng) → NDS (Retail Execution AI SaaS, 500K đánh giá AI/tháng, 3 khách hàng Tier-1 FMCG). Chốt bằng: sở hữu toàn bộ vòng đời requirements từ elicitation đến UAT sign-off.
+**1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt** (học ý, luyện nói tự nhiên, không học thuộc từng chữ — khoảng 60-90 giây khi nói):
+
+> *"Em là Phương, Business Analyst gần 3 năm, chuyên về ERP, CRM và Retail — đúng những mảng bên mình đang ưu tiên.*
+>
+> *Hiện tại em đang là BA duy nhất tại Vietnix, đặc tả từ đầu một hệ thống ERP nội bộ và cổng khách hàng tự phục vụ — 2 hệ thống, 40 module, phục vụ hơn 15,000 khách hàng. Em làm toàn bộ vòng đời: từ chạy workshop khám phá nghiệp vụ với 5 phòng ban, viết hơn 125 User Story và SRS, mô hình hóa quy trình bằng BPMN, đến khi UAT đạt tỷ lệ pass lần đầu khoảng 90%.*
+>
+> *Trước đó, em làm BA kiêm Product Owner tại NDS cho visibilityPRO — một nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ 3 khách hàng FMCG lớn như Pepsi, BEL, SABECO, xử lý khoảng 500 nghìn lượt đánh giá AI mỗi tháng. Ở đây em vừa làm BA đặc tả yêu cầu, vừa làm Product Owner quản lý backlog cho 4 nhóm chức năng khác nhau.*
+>
+> *Một điểm em nghĩ khá khác biệt là em có xây dựng quy trình đặc tả yêu cầu có hỗ trợ AI — giúp giảm khoảng 30% thời gian chuẩn bị tài liệu, nhưng vẫn giữ bước kiểm duyệt thủ công trước khi chấp nhận bất kỳ output nào. Em cũng áp dụng đúng cách làm đó để tự xây một sản phẩm SaaS cá nhân từ đầu.*
+>
+> *Em thấy JD của Excel Technologies rất khớp với những gì em đã làm — đặc biệt là mảng ERP và Retail — nên em rất muốn tìm hiểu kỹ hơn về vị trí này."*
+
+**Nguyên tắc khi trình bày:**
+- Thứ tự: hook 1 câu (kinh nghiệm + đúng domain JD cần) → Vietnix (câu chuyện gần nhất, chi tiết nhất) → NDS (câu chuyện quy mô lớn hơn, vai trò kép BA+PO) → điểm khác biệt (AI-assisted workflow) → câu chốt nối sang JD.
+- Đừng liệt kê hết mọi con số trong CV — chỉ chọn 3-4 con số ấn tượng nhất (40 module, 15,000+ khách hàng, 500K đánh giá AI/tháng, ~90% UAT pass, ~30% giảm thời gian) để không bị đọc như đang trả bài.
+- Nói chậm, dừng hơi giữa 2 công ty — đừng nói liền một mạch không ngắt.
+- Nếu bị ngắt hỏi thêm giữa chừng thì trả lời tự nhiên, không cố nói hết bài đã chuẩn bị.
 
 **2. Kinh nghiệm với ERP/CRM/Retail/Inventory/E-commerce cụ thể ra sao?**
 → ERP: một mình đặc tả 26 module ERP nội bộ + 14 module storefront khách hàng, chạy 5 workshop khám phá nghiệp vụ ở 5 phòng ban.
