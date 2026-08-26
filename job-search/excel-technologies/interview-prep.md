@@ -29,7 +29,9 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 **1. Giới thiệu bản thân / kinh nghiệm BA** — **Câu trả lời đã chốt, bản ngắn** (~20-25 giây, học ý chứ không học thuộc từng chữ):
 
-> *"Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em đang làm ở Vietnix, đặc tả một hệ thống ERP và cổng khách hàng phục vụ hơn 15,000 khách hàng của công ty. Trước đó em làm BA kiêm Product Owner ở NDS, cho nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình đặc tả yêu cầu để rút ngắn thời gian làm tài liệu, và dùng chính cách đó để tự xây một sản phẩm SaaS cá nhân."*
+> *"Trước tiên em cảm ơn anh/chị đã dành thời gian phỏng vấn em hôm nay. Em là Phương, làm Business Analyst gần 3 năm, chuyên về ERP và Retail. Hiện em đang làm ở Vietnix, đặc tả một hệ thống ERP và cổng khách hàng phục vụ hơn 15,000 khách hàng của công ty. Trước đó em làm BA kiêm Product Owner ở NDS, cho nền tảng AI chấm điểm trưng bày bán lẻ, phục vụ các khách hàng FMCG lớn như Pepsi, BEL, SABECO. Em cũng có áp dụng AI vào quy trình đặc tả yêu cầu để rút ngắn thời gian làm tài liệu, và dùng chính cách đó để tự xây một sản phẩm SaaS cá nhân."*
+
+**Nguồn tham khảo khung này:** Present-Past-Future method (interviewguru.app, biginterview.com) — mở bằng vị trí hiện tại, chứng minh bằng 1-2 thành tích quá khứ, nối sang định hướng. Câu cảm ơn mở đầu theo thói quen phỏng vấn VN phổ biến (TopCV, CareerViet, Glints VN) — không bắt buộc nhưng thể hiện lịch sự. Nhớ **cảm ơn thêm 1 lần nữa ở cuối buổi phỏng vấn** khi ra về, không chỉ ở phần giới thiệu.
 
 **Lưu ý:** bỏ chữ "duy nhất" (sole BA) ra khỏi bản giới thiệu ngắn — không phải thông tin bắt buộc phải chủ động nói, và nói ra có thể mời câu hỏi ngược "sao có 1 mình, team nhỏ vậy à" mà chưa chắc muốn mở ngay từ đầu. Để dành trả lời tự nhiên nếu HR hỏi "team BA bên đó bao nhiêu người" — lúc đó nói "duy nhất" sẽ nghe như câu trả lời trực tiếp cho câu hỏi, không phải chủ động khoe.
 
