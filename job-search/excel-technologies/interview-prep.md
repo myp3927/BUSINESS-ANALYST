@@ -52,8 +52,16 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 **8. Bạn dùng AI trong công việc BA thế nào?** (Điểm mạnh riêng, chủ động nêu ra)
 → Domain research → edge-case mapping → AI draft User Stories/AC/flow/UI → validation gate thủ công trước khi chấp nhận. Giảm ~30% thời gian chuẩn bị yêu cầu. Đây cũng chính là cách xây dựng personal project AnalyzeCV.
 
-**9. Vì sao muốn chuyển việc / rời Vietnix sau ~10 tháng?**
-→ **Phải tự trả lời bằng lý do thật của bạn** — mình không bịa hộ. Gợi ý khung: liên hệ tới việc dự án đã "production-ready, cutover pending" (điểm dừng tự nhiên), tránh nói tiêu cực về công ty cũ.
+**9. Vì sao muốn chuyển việc / rời Vietnix sau ~11 tháng?**
+→ **Câu trả lời đã chốt (học thuộc ý, không học vẹt từng chữ):**
+
+> *"Em rất biết ơn thời gian ở Vietnix, vì đã cho em cơ hội làm BA duy nhất trên một dự án ERP greenfield từ đầu đến cuối — từ thu thập yêu cầu, đặc tả 40 module, đến khi hệ thống đạt production-ready cho 15,000+ khách hàng. Tuy nhiên, khi dự án đã đến giai đoạn bàn giao vận hành, em nhận thấy phần việc BA còn lại chủ yếu là hỗ trợ và duy trì, không còn nhiều bài toán nghiệp vụ mới. Em muốn tìm một môi trường có nhiều sản phẩm/domain song song hơn để tiếp tục mở rộng kinh nghiệm — và đó là điều em thấy ở Excel Technologies, với các sản phẩm đa dạng như ERP, CRM, Retail."*
+
+Nguyên tắc đằng sau (áp dụng cho mọi câu hỏi biến thể của câu này):
+- Khung "biết ơn → tuy nhiên → hướng tới" — không đổ lỗi công ty cũ, không liệt kê nhiều lý do cùng lúc.
+- Dùng số liệu thật (40 module, 15,000+ khách hàng, production-ready) để nghe cụ thể, không sáo rỗng.
+- **Tuyệt đối không nói "muốn môi trường quy mô lớn hơn"** — ExcelTech chỉ ~20-56 nhân viên (xem `company-reviews.md`), khả năng cao **nhỏ hơn** Vietnix. Nói vậy sẽ bị hỏi ngược lại ngay tại chỗ. Dùng "đa dạng sản phẩm/domain" thay vì "quy mô lớn" — vừa đúng thật (ExcelTech có ERP, CRM, Retail, DigiFarm, Wisere, DigiAqua song song), vừa khớp JD.
+- Câu "còn nhiều bài toán nghiệp vụ mới" ngầm trả lời luôn nỗi lo ngầm của NTD là "vài tháng nữa lại chán, lại nhảy việc".
 
 **10. Mong muốn mức lương?**
 → Để công ty ra range trước nếu được hỏi trong vòng đầu. Nếu bị hỏi ngược, đưa khoảng **22–26 triệu VNĐ/tháng** (xem chi tiết lý do trong `company-reviews.md`).
