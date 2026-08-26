@@ -66,15 +66,16 @@ Nguyên tắc đằng sau (áp dụng cho mọi câu hỏi biến thể của c�
 **10. Mong muốn mức lương?**
 → Để công ty ra range trước nếu được hỏi trong vòng đầu. Nếu bị hỏi ngược, đưa khoảng **22–26 triệu VNĐ/tháng** (xem chi tiết lý do trong `company-reviews.md`).
 
-**11. Bạn biết gì về Excel Technologies / DigiFarm?** (Câu trả lời sẵn sàng, dùng đúng thông tin từ fanpage chính thức của công ty — nguồn gốc, đáng tin cậy)
-→ *"Em có biết Excel Technologies là đơn vị phát triển DigiFarm — giải pháp quản lý tổng thể vận hành trang trại và vật nuôi, đã trình bày tại Giải thưởng Sao Khuê 2024. DigiFarm theo dõi tình hình sức khỏe vật nuôi và môi trường trang trại như nhiệt độ, ánh sáng, độ ẩm, NH3, và phát cảnh báo sớm giúp người dùng chủ động xử lý, tiết kiệm chi phí, hạn chế hao hụt. Ngoài DigiFarm, công ty còn có Wisere — nền tảng đặt lịch cho ngành làm đẹp/nha khoa, đạt Sao Khuê 2023 — và là đối tác chính thức của SUNMI về thiết bị phần cứng bán lẻ."*
-→ Nguồn: bài đăng fanpage Facebook chính thức "Excel Technologies" (26/03/2024) — đáng tin cậy vì là phát ngôn trực tiếp của công ty, không phải suy luận qua bên thứ 3.
+**11. Bạn biết gì về Excel Technologies / DigiFarm?** (Câu trả lời sẵn sàng, dùng đúng thông tin từ 2 fanpage chính thức — nguồn gốc, đáng tin cậy, không cần hỏi lại để xác nhận)
+→ *"Em có biết Excel Technologies là đơn vị thành viên của Tập đoàn GREENFEED, và là đơn vị phát triển DigiFarm — giải pháp quản lý tổng thể vận hành trang trại và vật nuôi, đã trình bày tại Giải thưởng Sao Khuê 2024. DigiFarm theo dõi tình hình sức khỏe vật nuôi và môi trường trang trại như nhiệt độ, ánh sáng, độ ẩm, NH3, và phát cảnh báo sớm giúp người dùng chủ động xử lý, tiết kiệm chi phí, hạn chế hao hụt. Ngoài DigiFarm, công ty còn có Wisere — nền tảng đặt lịch cho ngành làm đẹp/nha khoa, đạt Sao Khuê 2023 — và là đối tác chính thức của SUNMI về thiết bị phần cứng bán lẻ. Em cũng biết Excel Technologies từng được ITviec xếp hạng Top 3 Doanh nghiệp IT vừa và nhỏ tốt nhất Việt Nam."*
+→ Nguồn: fanpage chính thức "Excel Technologies" (26/03/2024) + fanpage chính thức "GREENFEED Vietnam Careers" (22/03/2023) — đáng tin cậy vì là phát ngôn trực tiếp từ cả 2 công ty, không phải suy luận qua bên thứ 3.
+→ **Lưu ý khi nói câu này:** đừng nói kiểu "khoe" đã điều tra quá sâu — nói tự nhiên như kiến thức nền đã tìm hiểu trước khi ứng tuyển, thể hiện sự chuẩn bị kỹ chứ không phải "soi" công ty.
 
 ## Câu hỏi nên hỏi ngược lại nhà tuyển dụng
 
-**Xác minh công ty (mới, từ research hôm nay):**
-- "Em có đọc được là Excel Technologies có liên kết với Tập đoàn GREENFEED — anh/chị có thể xác nhận và chia sẻ thêm về mối quan hệ này không?" (JD có câu "thành viên của một Tập Đoàn đang phát triển"; đã xác nhận chắc chắn ExcelTech là đơn vị phát triển DigiFarm — nhưng bản chất quan hệ với GREENFEED cụ thể là gì [thành viên tập đoàn hay đối tác công nghệ dài hạn] thì vẫn chưa có nguồn chính thức xác nhận 100%)
-- "Em thấy hệ sinh thái công nghệ nông nghiệp bên đối tác có tích hợp cả SAP ERP — vị trí này có liên quan đến phần tích hợp ERP đó không?" (điểm khớp trực tiếp với kinh nghiệm ERP của bạn nếu đúng — chủ động nêu ra để làm nổi bật thế mạnh)
+**Xác minh công ty (mới, từ research hôm nay — quan hệ GREENFEED đã xác nhận 100% nên KHÔNG cần hỏi lại câu đó nữa, chỉ còn các câu mở dưới đây):**
+- "Em thấy hệ sinh thái công nghệ nông nghiệp bên GREENFEED có tích hợp cả SAP ERP — vị trí này có liên quan đến phần tích hợp ERP đó không?" (điểm khớp trực tiếp với kinh nghiệm ERP của bạn nếu đúng — chủ động nêu ra để làm nổi bật thế mạnh)
+- "Excel Technologies có phục vụ khách hàng ngoài hệ sinh thái GREENFEED không, hay chủ yếu tập trung phát triển sản phẩm nội bộ cho tập đoàn?" (hiểu định hướng dài hạn công ty, và giúp bạn hình dung phạm vi công việc thực tế)
 - "Em thấy GREENFEED vừa ra mắt nền tảng đặt hàng trực tuyến G-Link (6/2026) — ExcelTech có tham gia xây dựng hoặc tích hợp phần đó không?" (nếu có, đây là domain E-commerce khớp thẳng vào kinh nghiệm "self-service purchase journey" của bạn ở Vietnix — cơ hội tốt để liên hệ ngược lại kinh nghiệm bản thân)
 - "Vị trí BA này sẽ làm chính cho sản phẩm/dự án nào — ERP nội bộ, hay 1 trong các sản phẩm như Wisere/DigiFarm/DigiAqua, hay 1 dự án mới?"
 - "Team hiện áp dụng quy trình Agile/Scrum chính thức không, hay linh hoạt theo từng dự án? Bên mình có làm song song cả sản phẩm SaaS riêng (Wisere, DigiFarm...) lẫn dự án custom theo yêu cầu khách hàng/tập đoàn không — nếu có thì BA có phải cover nhiều sản phẩm cùng lúc không?"
