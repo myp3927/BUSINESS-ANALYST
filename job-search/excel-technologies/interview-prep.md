@@ -66,10 +66,14 @@ Nguyên tắc đằng sau (áp dụng cho mọi câu hỏi biến thể của c�
 **10. Mong muốn mức lương?**
 → Để công ty ra range trước nếu được hỏi trong vòng đầu. Nếu bị hỏi ngược, đưa khoảng **22–26 triệu VNĐ/tháng** (xem chi tiết lý do trong `company-reviews.md`).
 
+**11. Bạn biết gì về Excel Technologies / DigiFarm?** (Câu trả lời sẵn sàng, dùng đúng thông tin từ fanpage chính thức của công ty — nguồn gốc, đáng tin cậy)
+→ *"Em có biết Excel Technologies là đơn vị phát triển DigiFarm — giải pháp quản lý tổng thể vận hành trang trại và vật nuôi, đã trình bày tại Giải thưởng Sao Khuê 2024. DigiFarm theo dõi tình hình sức khỏe vật nuôi và môi trường trang trại như nhiệt độ, ánh sáng, độ ẩm, NH3, và phát cảnh báo sớm giúp người dùng chủ động xử lý, tiết kiệm chi phí, hạn chế hao hụt. Ngoài DigiFarm, công ty còn có Wisere — nền tảng đặt lịch cho ngành làm đẹp/nha khoa, đạt Sao Khuê 2023 — và là đối tác chính thức của SUNMI về thiết bị phần cứng bán lẻ."*
+→ Nguồn: bài đăng fanpage Facebook chính thức "Excel Technologies" (26/03/2024) — đáng tin cậy vì là phát ngôn trực tiếp của công ty, không phải suy luận qua bên thứ 3.
+
 ## Câu hỏi nên hỏi ngược lại nhà tuyển dụng
 
 **Xác minh công ty (mới, từ research hôm nay):**
-- "Em có đọc được là Excel Technologies có liên kết với Tập đoàn GREENFEED — anh/chị có thể xác nhận và chia sẻ thêm về mối quan hệ này không?" (JD có câu "thành viên của một Tập Đoàn đang phát triển" nhưng chưa xác nhận 100% từ nguồn chính thức; có bằng chứng gián tiếp là ExcelTech phát triển app "DigiFarm Swine" trong hệ sinh thái DigiFarm của GREENFEED)
+- "Em có đọc được là Excel Technologies có liên kết với Tập đoàn GREENFEED — anh/chị có thể xác nhận và chia sẻ thêm về mối quan hệ này không?" (JD có câu "thành viên của một Tập Đoàn đang phát triển"; đã xác nhận chắc chắn ExcelTech là đơn vị phát triển DigiFarm — nhưng bản chất quan hệ với GREENFEED cụ thể là gì [thành viên tập đoàn hay đối tác công nghệ dài hạn] thì vẫn chưa có nguồn chính thức xác nhận 100%)
 - "Em thấy hệ sinh thái công nghệ nông nghiệp bên đối tác có tích hợp cả SAP ERP — vị trí này có liên quan đến phần tích hợp ERP đó không?" (điểm khớp trực tiếp với kinh nghiệm ERP của bạn nếu đúng — chủ động nêu ra để làm nổi bật thế mạnh)
 - "Em thấy GREENFEED vừa ra mắt nền tảng đặt hàng trực tuyến G-Link (6/2026) — ExcelTech có tham gia xây dựng hoặc tích hợp phần đó không?" (nếu có, đây là domain E-commerce khớp thẳng vào kinh nghiệm "self-service purchase journey" của bạn ở Vietnix — cơ hội tốt để liên hệ ngược lại kinh nghiệm bản thân)
 - "Vị trí BA này sẽ làm chính cho sản phẩm/dự án nào — ERP nội bộ, hay 1 trong các sản phẩm như Wisere/DigiFarm/DigiAqua, hay 1 dự án mới?"
