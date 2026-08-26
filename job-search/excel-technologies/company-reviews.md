@@ -87,6 +87,19 @@ Nguồn: web search gián tiếp (wisere.com, digifarm.cloud, Google Play, App S
 - **Mô hình lai (quan trọng cho vị trí đang ứng tuyển):** JD mô tả công ty "tư vấn, thiết kế, xây dựng, quản lý, vận hành ứng dụng kinh doanh" — ngoài các SaaS tự sở hữu (Wisere/DigiFarm/DigiAqua), công ty còn nhận **dự án custom theo yêu cầu** (khả năng cao là hệ thống ERP/CRM nội bộ cho GREENFEED — đúng loại hình công việc của vị trí này).
 - **Chưa xác định được:** tech stack cụ thể (.NET/Java/Node/React...), quy trình Agile/Scrum có áp dụng chính thức hay không — không có nguồn xác nhận công khai. **Nên hỏi thẳng khi phỏng vấn**, đừng đoán.
 
+## Triết lý làm sản phẩm của công ty (từ fanpage chính thức, 08/12/2025)
+
+Bài đăng "LÀM SẢN PHẨM LÀ GIẢI BÀI TOÁN, KHÔNG PHẢI VIẾT CODE" — nêu 3 câu hỏi chiến lược công ty dùng để định hướng sản phẩm:
+1. **Vấn đề người dùng:** Nỗi đau thực sự và khó khăn lớn nhất người dùng đang gặp là gì?
+2. **Hiệu quả quy trình:** Quy trình hiện tại đang lãng phí ở khâu nào, cần tinh gọn ra sao?
+3. **Mục tiêu kinh doanh:** Sản phẩm này đóng góp thế nào vào mục tiêu tăng trưởng cốt lõi?
+
+Thông điệp chốt: *"Một sản phẩm mạnh không sinh ra từ việc gom thật nhiều tính năng, mà từ độ chính xác của insight và độ tinh gọn của thiết kế... Cốt lõi của một sản phẩm công nghệ thành công không phải là 'làm được nhiều', mà là 'giải quyết đúng vấn đề'."*
+
+**Đáng chú ý:** đây gần như là mô tả lại đúng quy trình BA chuẩn (elicitation → xác định pain point → phân tích quy trình → gắn với mục tiêu kinh doanh) trước khi viết đặc tả — rất khớp với cách tiếp cận của bạn (discovery workshop → surface pain points → FIT-GAP → MVP scope). Có thể chủ động trích dẫn tinh thần này khi trả lời câu hỏi về quy trình thu thập yêu cầu, để cho thấy đã tìm hiểu và đồng điệu văn hóa công ty.
+
+**Địa chỉ cập nhật (từ bài đăng này, 12/2025):** Tầng 6, số 268 Trần Hưng Đạo, Phường Chợ Lớn (Quận 5 cũ), TP.HCM — lưu ý JD ghi "Tầng 7" còn bài đăng mới nhất ghi "Tầng 6", và tên phường đã đổi theo sáp nhập hành chính (Phường Chợ Lớn thay Quận 5). Chênh lệch tầng có thể do văn phòng đổi tầng theo thời gian — không cần hỏi, chỉ cần biết địa chỉ tòa nhà đúng khi đi phỏng vấn.
+
 ## Range lương tham khảo
 
 **Lương cụ thể của Excel Technologies (ExcelTech VN) — không có dữ liệu công khai.** JD ghi "Thoả thuận", các review (ITviec/Note8) chỉ nói định tính ("lương tốt", "minh bạch") chứ không có con số. Glassdoor có trang "Excel Technologies Salaries" nhưng đó là **công ty khác ở Mỹ** (Excel Technologies International/Solutions, có role Cyber Security Analyst) — không liên quan đến ExcelTech VN, không dùng số liệu đó.

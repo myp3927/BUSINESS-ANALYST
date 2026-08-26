@@ -36,6 +36,7 @@ JD yêu cầu "Ít nhất 03 năm kinh nghiệm làm Business Analyst". Cộng d
 
 **3. Quy trình thu thập & phân tích yêu cầu?**
 → Discovery workshop → surface pain points → FIT-GAP (đánh giá platform có sẵn vs xây mới, ví dụ case SABECO/BEL) → dịch thành MVP scope.
+→ **Điểm cộng nếu khéo léo lồng vào:** công ty có bài đăng fanpage (12/2025) nói "làm sản phẩm là giải bài toán, không phải viết code", với 3 câu hỏi chiến lược (vấn đề người dùng → hiệu quả quy trình → mục tiêu kinh doanh) — gần như đúng thứ tự quy trình bạn làm thật. Có thể nói 1 câu ngắn kiểu: *"Cách em tiếp cận yêu cầu cũng theo tinh thần đó — bắt đầu từ nỗi đau thật của người dùng trước khi nghĩ đến tính năng"* — nhưng đừng lạm dụng, chỉ 1 câu ngắn tự nhiên, không trích dẫn dài dòng như đang học thuộc bài.
 
 **4. Cách tài liệu hóa yêu cầu, công cụ dùng?**
 → User Stories + edge-case-driven AC trên Confluence (125+ ở Vietnix, 250+ ở NDS), SRS, BPMN 2.0 trên Draw.io, UI trên Figma, quản lý bằng Jira.
