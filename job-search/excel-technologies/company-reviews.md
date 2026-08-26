@@ -1,0 +1,131 @@
+# Tổng hợp Review về Excel Technologies (ExcelTech)
+
+Tổng hợp từ ITviec, 1900.com.vn, Note8.vn, báo chí (Cafebiz). Ghi ngày tổng hợp: 2026-08-26.
+Lưu ý: các review trái chiều nhau khá nhiều — đọc cả 2 chiều trước khi phỏng vấn.
+
+## Thông tin công ty
+
+- Trụ sở chính: Tầng 20, Toà nhà Centec, 72-74 Nguyễn Thị Minh Khai, Q3, TP.HCM.
+- Văn phòng làm việc (theo JD): Tầng 7, Toà nhà 268 Trần Hưng Đạo, Q5, TP.HCM.
+- Quy mô: công ty vừa/nhỏ, đang trong giai đoạn mở rộng (theo review nhân viên).
+- Sản phẩm nổi bật:
+  - **Wisere** — phần mềm quản lý phòng khám nha khoa, giải Sao Khuê 2023.
+  - **DigiFarm** — phần mềm quản lý trang trại/năng suất vật nuôi, giải Sao Khuê 2024.
+  - Đối tác chính thức của **SUNMI** tại Việt Nam (từ tháng 7/2026) — thiết bị phần cứng cho bán lẻ, F&B, logistics, y tế.
+- Ngành đa dạng: y tế, nông nghiệp, làm đẹp, bán lẻ — theo review nhân viên trên ITviec.
+- Theo 1 kết quả tìm kiếm, công ty được nhắc đến là **thành viên thuộc Tập đoàn GREENFEED** — khớp với câu "Là thành viên của một Tập Đoàn đang phát triển" trong JD. Thông tin này chưa kiểm chứng chéo được từ nguồn chính thức (exceltech.vn), nên xác nhận lại khi phỏng vấn.
+- ITviec (LinkedIn, 2023) xếp Excel Technologies **hạng 3/15 "Công ty IT tốt nhất Việt Nam 2023 - Quy mô vừa và nhỏ"** (dưới 300 nhân viên).
+
+## Review theo mốc thời gian (từ cũ đến mới)
+
+### Trên ITviec (itviec.com/companies/excel-technologies/review — 12 review)
+
+| Thời gian | Rating | Ưu điểm | Nhược điểm |
+|---|---|---|---|
+| 09/2022 | 5.0 | Môi trường tốt, chuyên nghiệp, lương tốt, đào tạo đầy đủ | Không nêu rõ |
+| 10/2022 | 5.0 | Môi trường tốt, chuyên nghiệp, lương tốt, đào tạo đầy đủ | Không nêu rõ |
+| 07/2024 | 1.0 | Không có | "Công ty toxic", quản lý yếu kém |
+| 08/2025 | 4.0 | Lương cạnh tranh, sếp chủ động tăng lương, nhiều đào tạo | Quản lý sát sao/áp lực |
+| 09/2025 | 4.0 | Sản phẩm đa dạng, lộ trình thăng tiến rõ, lương thưởng minh bạch, OT/phúc lợi tốt | Thiếu liên kết giữa các phòng ban, teamwork chưa mạnh |
+| 09/2025 | 5.0 | Môi trường nhiều cơ hội, phù hợp người ham học hỏi | Không nêu rõ |
+| 09/2025 | 5.0 | Lương tốt, sếp chủ động tăng lương, nhiều đào tạo kỹ năng mềm | Môi trường áp lực cao, quản lý khắt khe |
+| 09/2025 | 5.0 | Chuyên nghiệp, phù hợp người hướng nội, lương cạnh tranh, có đào tạo | Không nêu rõ |
+| 09/2025 | 4.0 | Môi trường ổn định | Không nêu rõ |
+
+**Ghi chú:** Review tiêu cực nhất (1 sao, "công ty toxic") rơi vào **07/2024** — xen giữa các review khác đều tích cực (4-5 sao) từ 2022 và 2025. Có thể là 1 trải nghiệm cá biệt (1 nhân viên/1 giai đoạn quản lý cụ thể) chứ không phải xu hướng kéo dài, nhưng vẫn nên hỏi công ty về thay đổi nhân sự quản lý trong giai đoạn 2024.
+
+### Trên Note8.vn / 1900.com.vn (mirror nhau — 14 review)
+
+| Thời gian | Vị trí | Rating | Ưu điểm | Nhược điểm |
+|---|---|---|---|---|
+| 09/2022 | Tester | 5.0 | Văn phòng thoải mái, đồng nghiệp tốt, trả lương đúng hạn, ít OT | Cần tuyển nhanh hơn cho dự án |
+| 09/2022 | Tester | 4.0 | Không gian rộng xanh, đội ngũ thân thiện, phúc lợi tốt, cơ hội phát triển | Bãi xe nhỏ, ít đồ ăn vặt |
+| 09/2022 | Tester | 5.0 | Môi trường chuyên nghiệp, lương tốt, phúc lợi tốt, hiếm khi OT | Wifi lỗi, bãi xe nhỏ |
+| 09/2022 | Tester | 5.0 | Môi trường chuyên nghiệp, đồng nghiệp giỏi, làm việc hiệu quả, ít OT | Máy chấm công hay lỗi |
+| 10/2023 | **Business Analyst** | 5.0 | Được cấp máy cá nhân, môi trường năng động, phúc lợi cao | Bãi xe hạn chế, ít giao lưu |
+| 10/2023 | **Business Analyst** | 5.0 | Không gian đẹp, văn hóa cởi mở, WFH hàng tuần, OT minh bạch | Cần thêm hoạt động team |
+| 10/2023 | **Business Analyst** | 5.0 | Đồng nghiệp thân thiện, leader tốt, không gian xanh, không bắt buộc OT | Bãi xe nhỏ, wifi không ổn định |
+| 11/2023 | ERP Software Developer | 5.0 | View đẹp, không gian mở, gần như không OT, phúc lợi tốt | Wifi yếu, chính sách khá cứng |
+| 11/2023 | ERP Software Developer | 5.0 | WFH 1 ngày/tuần, văn phòng xanh, ít OT, chính sách hợp lý | Wifi yếu, thang máy chậm |
+| 11/2023 | ERP Software Developer | 5.0 | Sạch sẽ, cây xanh, sếp tốt, phúc lợi cao | Bãi xe nhỏ, ít sự kiện gắn kết |
+| 11/2023 | ERP Software Developer | 5.0 | Môi trường chuyên nghiệp, hòa đồng, học tập cao, ít OT | Không nêu cải thiện gì |
+| 12/2024 | Nhân viên (chung) | 3.0 | Không nêu rõ | "Văn phòng nhỏ... nhân sự chủ yếu trẻ mới ra trường... sếp trình độ thấp... môi trường toxic" |
+| 12/2024 | Financial Consultant | 4.0 | Đồng nghiệp hòa đồng, leader tận tình, môi trường xanh, không OT | Bãi xe, wifi |
+| 12/2024 | Nhân viên (chung) | 5.0 | Nhiều khóa đào tạo kỹ năng mềm, đồng nghiệp thân thiện, hạn chế OT | Không nêu |
+
+**Điểm trung bình theo Note8.vn: 4.7/5 (14 review).**
+
+**Ghi chú quan trọng cho bạn:** Có **3 review từ chính vị trí Business Analyst** (10/2023) — đều 5 sao, đều tích cực về môi trường, phúc lợi, WFH — đây là tín hiệu tốt vì gần sát nhất với vị trí bạn đang ứng tuyển. Review tiêu cực nhất (3 sao, "toxic", "sếp trình độ thấp") là **12/2024**, từ vị trí không ghi rõ — cùng khung thời gian với review tiêu cực 1 sao trên ITviec (07/2024). Hai nguồn độc lập cùng chỉ ra vấn đề quản lý rơi vào khoảng **giữa 2024**, đáng để hỏi thẳng khi phỏng vấn xem có thay đổi nhân sự quản lý nào từ giai đoạn đó đến nay không.
+
+## Range lương tham khảo
+
+**Lương cụ thể của Excel Technologies (ExcelTech VN) — không có dữ liệu công khai.** JD ghi "Thoả thuận", các review (ITviec/Note8) chỉ nói định tính ("lương tốt", "minh bạch") chứ không có con số. Glassdoor có trang "Excel Technologies Salaries" nhưng đó là **công ty khác ở Mỹ** (Excel Technologies International/Solutions, có role Cyber Security Analyst) — không liên quan đến ExcelTech VN, không dùng số liệu đó.
+
+**Range thị trường cho BA tại TP.HCM (2026, tham khảo để định vị khi thương lượng):**
+
+| Nguồn | Mức | Ghi chú |
+|---|---|---|
+| JobsGO | 11–26 triệu VNĐ/tháng (TB 19.4tr) | Range chung toàn cấp độ |
+| SmartOSC | 15–30 triệu VNĐ/tháng | Mid-Senior BA (2-5 năm) |
+| 1900.com.vn | 20–30 triệu VNĐ/tháng | Middle BA (2-5 năm) |
+| TopCV | 15–25 triệu VNĐ/tháng (TB 20tr) | Range chung; Senior BA riêng: 22–35tr |
+
+**Quyết định: apply Middle** (khớp title JD "Senior/Middle" và đúng với ~3 năm kinh nghiệm thực tế, không gồng Senior).
+
+**Định vị lương cho mục tiêu Middle:** khoảng **22–26 triệu VNĐ/tháng** — nghiêng nửa trên dải Middle (20–30tr) vì domain ERP/CRM/Retail khớp thẳng vào ưu tiên JD và có chứng chỉ IIBA, nhưng không neo sát 28-30tr vì đó là vùng giáp ranh Senior, dễ bị xem là đòi cao so với số năm kinh nghiệm.
+
+Vì công ty không công bố số, hãy để họ ra range trước trong vòng phỏng vấn đầu; nếu bị hỏi ngược "mức mong muốn của bạn", đưa khoảng 22–26 triệu.
+
+## Ưu điểm (tổng hợp từ nhiều review)
+
+**Lương thưởng & phúc lợi**
+- Minh bạch: lương, bảo hiểm, chấm công rõ ràng, có phiếu lương/bảng công.
+- Cơ hội tăng lương 1-2 lần/năm, xét thăng tiến công bằng.
+- Thưởng tháng 13, và có thể có thưởng hiệu quả công việc cộng thêm (tháng 14, 15, 16 theo quảng bá tuyển dụng — chưa chắc áp dụng mọi vị trí, nên hỏi rõ khi phỏng vấn).
+- Gói bảo hiểm sức khỏe toàn diện cho nhân viên và người thân.
+- Hầu như không OT, nếu có thì ít và có chế độ phù hợp.
+
+**Môi trường làm việc**
+- Văn phòng có view đẹp, vị trí trung tâm, không gian mở, nhiều cây xanh, sạch sẽ.
+- Đồng nghiệp hòa đồng, thân thiện, chuyên môn cao.
+- Leader tận tình hướng dẫn, sếp quan tâm nhân viên (theo một số review).
+- Không khí trẻ trung, năng động.
+- WFH 1 ngày/tuần (khớp với JD).
+
+**Cơ hội phát triển**
+- Sản phẩm đa dạng (y tế, nông nghiệp, làm đẹp, bán lẻ) → nhân viên cảm nhận nhiều cơ hội/thị trường để phát triển.
+- Lộ trình thăng tiến chia bậc khá chi tiết.
+- Có các khóa đào tạo kỹ năng mềm và chuyên môn định kỳ.
+
+## Nhược điểm (tổng hợp từ nhiều review)
+
+**Vận hành / cơ sở vật chất**
+- Chỗ để xe nhỏ, một số nhân viên phải thuê chỗ gửi xe ngoài, chi phí gửi xe hàng tháng không nhỏ.
+- Máy chấm công hay lỗi.
+- Wifi thi thoảng rớt.
+- Thiếu tủ thuốc y tế mini, thiếu đồ ăn vặt trong nhà ăn.
+
+**Văn hóa / quản lý (có review trái chiều)**
+- Vì nhiều sản phẩm/dự án song song → cạnh tranh khá căng giữa các team/các sếp.
+- Thăng tiến: một số nhân viên cảm thấy mất khá nhiều thời gian mới lên được vị trí mong muốn.
+- Cần thêm hoạt động gắn kết (team building/party).
+- **Review tiêu cực đáng chú ý** (từ Note8.vn, khác biệt rõ với đa số review tích cực khác): văn phòng nhỏ, nhân sự chủ yếu trẻ mới ra trường, dự án ít, đánh giá "sếp trình độ thấp, không biết cách quản lý", môi trường toxic, nhân viên ra vào liên tục (turnover cao). Đây là review thiểu số nhưng đáng lưu tâm — nên hỏi thẳng về turnover rate và số dự án đang chạy khi phỏng vấn.
+
+## Điểm mâu thuẫn cần tự kiểm chứng khi phỏng vấn
+
+| Chủ đề | Review tích cực nói | Review tiêu cực nói |
+|---|---|---|
+| Quy mô/dự án | Sản phẩm đa dạng, nhiều cơ hội | Dự án ít |
+| Quản lý | Leader tận tình, sếp quan tâm | Sếp trình độ thấp, không biết quản lý |
+| Văn hóa | Đồng nghiệp hòa đồng, không toxic | Môi trường toxic, turnover cao |
+
+→ Gợi ý câu hỏi khi phỏng vấn: số lượng BA/PM hiện tại trong team, tỷ lệ nghỉ việc trong 1 năm gần đây, số dự án đang chạy song song, ai sẽ là quản lý trực tiếp và phong cách quản lý của họ.
+
+## Nguồn
+
+- [Excel Technologies - ITviec (trang tuyển dụng)](https://itviec.com/companies/excel-technologies)
+- [12 Review việc làm tại Excel Technologies - ITviec](https://itviec.com/companies/excel-technologies/review)
+- [14+ Reviews Excel Technologies - 1900.com.vn](https://1900.com.vn/danh-gia-dn/cong-ty-co-phan-excel-technologies-3381)
+- [Excel Technologies - Note8.vn](https://note8.vn/tong-quan/cong-ty-co-phan-excel-technologies-3381)
+- [Excel Technologies chính thức trở thành đối tác của SUNMI - Cafebiz](https://cafebiz.vn/excel-technologies-chinh-thuc-tro-thanh-doi-tac-cua-sunmi-tai-viet-nam-176250724140028231.chn)
+- [Tuyển dụng Excel Technologies - VietnamWorks](https://www.vietnamworks.com/nha-tuyen-dung/cong-ty-co-phan-excel-technologies-c408980)
