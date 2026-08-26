@@ -73,10 +73,10 @@ Lưu ý kỹ thuật: `exceltech.vn`, LinkedIn, ITviec, Google Play, Facebook đ
 
 Nguồn: web search gián tiếp (wisere.com, digifarm.cloud, Google Play, App Store đều bị egress proxy chặn fetch trực tiếp từ môi trường này — không lấy được nguyên văn trang gốc, chỉ có bản tóm tắt qua tìm kiếm). Xác minh lại khi phỏng vấn nếu cần chi tiết sâu hơn.
 
-- **Mô hình đa sản phẩm dọc ngành (vertical SaaS)**, không phải 1 hệ thống lớn duy nhất:
-  - **Wisere** (wisere.com) — SaaS quản lý phòng khám: đặt lịch hẹn, hồ sơ bệnh án, quản lý vật liệu/bác sĩ. Ban đầu cho nha khoa, đang mở rộng sang spa. *Đính chính:* đây là phần mềm bán cho **chủ phòng khám** để vận hành, không phải app đặt lịch đa dịch vụ cho người dùng cuối như từng suy đoán.
-  - **DigiFarm** — SaaS + IoT quản lý trang trại chăn nuôi: cảm biến nhiệt độ/độ ẩm, camera giám sát vật nuôi, điều khiển từ xa thiết bị (quạt/đèn/bơm/cho ăn), cảnh báo sự cố real-time, dashboard cloud.
-  - **DigiAqua** — cùng mô hình, cho nuôi trồng thủy sản. Ít thông tin công khai.
+- **Mô hình đa sản phẩm dọc ngành (vertical SaaS/marketplace)**, không phải 1 hệ thống lớn duy nhất:
+  - **Wisere** — nền tảng 2 chiều (2-sided): app "Wisere" cho người dùng cuối tìm & đặt lịch dịch vụ làm đẹp/y tế (cắt tóc, nail, spa, nha khoa) theo vị trí; app/web "Wisere Manager" cho chủ cơ sở quản lý vận hành (lịch hẹn, hồ sơ khách, vật liệu, nhân sự). Xem chi tiết đầy đủ ở mục "Thông tin công ty" phía trên.
+  - **DigiFarm — có 2 app tách biệt:** app "DigiFarm" tổng quát do chính GREENFEED phát hành, và "DigiFarm Swine" chuyên sâu chăn nuôi heo (gần mini-ERP: phối giống, kho, khách hàng/NCC) do **ExcelTech phát triển**. Xem chi tiết ở mục "Thông tin công ty".
+  - **DigiAqua** — cùng dạng, cho nuôi trồng thủy sản. Không tìm được mô tả tính năng công khai, chỉ xác nhận tồn tại qua package Google Play `vn.exceltech.digiaqua`.
   - Mỗi sản phẩm có app riêng trên cả Google Play và App Store (kiến trúc multi-app theo từng dọc sản phẩm, không gộp chung).
 - **Phần cứng:** đối tác chính thức SUNMI (từ 7/2026) — thiết bị POS/IoT cho bán lẻ, F&B, logistics, y tế → công ty có làm giải pháp tích hợp phần cứng-phần mềm, không chỉ software thuần.
 - **Mô hình lai (quan trọng cho vị trí đang ứng tuyển):** JD mô tả công ty "tư vấn, thiết kế, xây dựng, quản lý, vận hành ứng dụng kinh doanh" — ngoài các SaaS tự sở hữu (Wisere/DigiFarm/DigiAqua), công ty còn nhận **dự án custom theo yêu cầu** (khả năng cao là hệ thống ERP/CRM nội bộ cho GREENFEED — đúng loại hình công việc của vị trí này).
